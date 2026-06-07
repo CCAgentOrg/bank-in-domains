@@ -1,0 +1,166 @@
+name: Refresh subdomain audit
+
+on:
+  schedule:
+    # Daily at 02:30 UTC (08:00 IST)
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install dnspython
+
+      - name: Discover new subdomains
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Pull the latest bank_domains_status.csv (from the existing repo)
+          mkdir -p out
+          cp data/bank_domains_status.csv out/bank_domains_status.csv
+
+          # Wayback CDX (slow, retry on failure)
+          echo "=== Wayback ==="
+          curl -sS --max-time 240 \
+            "http://web.archive.org/cdx/search/cdx?url=bank.in&matchType=domain&collapse=urlkey&limit=200000&output=json&fl=original" \
+            | python3 -c "
+          import json, sys, re
+          try:
+              data = json.load(sys.stdin)
+              for row in data[1:]:
+                  host = row[0].split('/')[2] if '://' in row[0] else row[0].split('/')[0]
+                  host = host.split(':')[0]
+                  if host.endswith('.bank.in'):
+                      print(host.lower())
+          except Exception as e:
+              print(f'Wayback failed: {e}', file=sys.stderr)
+          " | sort -u > out/wayback.txt || touch out/wayback.txt
+          echo "Wayback: $(wc -l < out/wayback.txt) hosts"
+
+          # urlscan.io (free, 100 cap)
+          echo "=== urlscan ==="
+          curl -sS --max-time 30 \
+            "https://urlscan.io/api/v1/search/?q=domain%3Abank.in" \
+            | python3 -c "
+          import json, sys
+          try:
+              d = json.load(sys.stdin)
+              for r in d.get('results', []):
+                  dom = r.get('page', {}).get('domain', '')
+                  if dom.endswith('.bank.in'):
+                      print(dom.lower())
+          except Exception as e:
+              print(f'urlscan failed: {e}', file=sys.stderr)
+          " | sort -u > out/urlscan.txt || touch out/urlscan.txt
+          echo "urlscan: $(wc -l < out/urlscan.txt) hosts"
+
+          # HackerTarget
+          echo "=== HackerTarget ==="
+          curl -sS --max-time 60 \
+            "https://api.hackertarget.com/hostsearch/?q=bank.in" \
+            | awk -F, 'NF>=1 {print $1}' | sort -u > out/hackertarget.txt \
+            || touch out/hackertarget.txt
+          echo "HackerTarget: $(wc -l < out/hackertarget.txt) hosts"
+
+          # Merge and dedupe
+          cat out/wayback.txt out/urlscan.txt out/hackertarget.txt \
+            | sort -u > out/discovered.txt
+          echo "Total discovered: $(wc -l < out/discovered.txt)"
+
+      - name: Build new subdomain list (not in existing CSV)
+        run: |
+          python3 -c "
+          import csv
+          existing = set()
+          with open('out/bank_domains_status.csv') as f:
+              for r in csv.DictReader(f):
+                  existing.add(r['domain'].lower())
+          new = set()
+          for line in open('out/discovered.txt'):
+              line = line.strip().lower()
+              if line and line not in existing and line.endswith('.bank.in'):
+                  new.add(line)
+          for d in sorted(new):
+              print(d)
+          " > out/new_subdomains.txt
+          echo "New: $(wc -l < out/new_subdomains.txt) subdomains"
+
+      - name: Probe new subdomains
+        run: |
+          if [ -s out/new_subdomains.txt ]; then
+            python3 scripts/scan_subdomains.py \
+              --in-list out/new_subdomains.txt \
+              --out-csv out/bank_domains_ct_expansion.csv \
+              --concurrency 50
+          else
+            echo "No new subdomains to probe"
+            : > out/bank_domains_ct_expansion.csv
+          fi
+
+      - name: Merge and dedupe master CSV
+        run: |
+          python3 -c "
+          import csv
+          existing = []
+          with open('data/bank_domains_status.csv') as f:
+              reader = csv.DictReader(f)
+              fieldnames = reader.fieldnames
+              existing = list(reader)
+          new = []
+          if __import__('os').path.exists('out/bank_domains_ct_expansion.csv'):
+              with open('out/bank_domains_ct_expansion.csv') as f:
+                  new = list(csv.DictReader(f))
+          seen = {r['domain'] for r in existing}
+          for r in new:
+              if r['domain'] not in seen:
+                  existing.append(r)
+                  seen.add(r['domain'])
+          existing.sort(key=lambda r: r['domain'])
+          with open('data/bank_domains_status.csv', 'w', newline='') as f:
+              w = csv.DictWriter(f, fieldnames=fieldnames)
+              w.writeheader()
+              w.writerows(existing)
+          live = sum(1 for r in existing if r.get('dns_resolves') == 'True')
+          ok = sum(1 for r in existing if r.get('status_code') == '200')
+          print(f'Merged: {len(existing)} total, {live} live, {ok} HTTP 200')
+          "
+
+      - name: Update discovered list
+        run: |
+          cat out/discovered.txt | sort -u > data/new_subdomains.txt
+          echo "Updated data/new_subdomains.txt with $(wc -l < data/new_subdomains.txt) entries"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet data/; then
+            echo "No data changes to commit"
+          else
+            git add data/
+            git commit -m "chore: refresh bank.in audit ($(date -u +%F))"
+            git push
+          fi

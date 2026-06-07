@@ -1,0 +1,58 @@
+name: Publish flat-data branch
+
+# Mirrors data/ into a `flat-data` branch so flatgithub.com
+# (https://flatgithub.com/CCAgentOrg/bank-in-domains) can serve it.
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # 03:00 UTC, 1h after refresh
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (data only)
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            data
+            README.md
+
+      - name: Switch to flat-data branch
+        run: |
+          git checkout -B flat-data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add flat-data pointer file
+        run: |
+          mkdir -p .flatgithub
+          cat > .flatgithub/index.json <<'EOF'
+          {
+            "title": "Indian Bank Domain Audit (.bank.in and parallels)",
+            "description": "Daily probe of *.bank.in, *.fin.in, *.insurance.in, *.nbfc.in, *.npci.in, *.bank — DNS resolution, HTTPS, status codes.",
+            "data_dir": "data",
+            "primary_table": "data/bank_domains_status.csv",
+            "schema": ["domain","dns_resolves","ip_address","https_works","http_works","status_code","title","final_url","error"],
+            "updated_from": "https://github.com/CCAgentOrg/bank-in-domains/blob/main/data/bank_domains_status.csv",
+            "homepage": "https://zo.pub/cashlessconsumer/bank-domains-status"
+          }
+          EOF
+
+      - name: Commit and push flat-data
+        run: |
+          git add .flatgithub data README.md
+          if git diff --staged --quiet; then
+            echo "No flat-data changes"
+          else
+            git commit -m "chore: update flat-data branch ($(date -u +%F))"
+            git push origin flat-data --force
+          fi

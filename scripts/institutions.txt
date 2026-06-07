@@ -1,0 +1,188 @@
+# Indian financial institution prefixes
+# Banks (PSU, private, SFB, payments, RRBs, cooperative)
+sbi
+hdfc
+icici
+axis
+kotak
+bob
+boi
+pnb
+canara
+union
+indian
+iob
+uco
+central
+bom
+indusind
+yes
+federal
+kvb
+tmb
+cub
+dbs
+dhanla
+dhan
+sbm
+karnataka
+karur
+csb
+idfc
+idbi
+rbl
+bandhan
+au
+ujjivan
+equitas
+esaf
+suryoday
+utkarsh
+jana
+fino
+paytm
+airtel
+jio
+india1
+nsdl
+cdsl
+nse
+bse
+mcx
+lic
+sbilife
+hdfclife
+icicipru
+maxlife
+kotaklife
+bajajlife
+birla
+tataaia
+tata
+reliance
+nippon
+indiafirst
+sbipension
+starhealth
+manipalcigna
+care
+hdfcergo
+icicilombard
+bajajallianz
+iffco
+chola
+go
+digit
+acko
+niva
+policybazaar
+pbfintech
+coverfox
+insurancedekho
+onp
+cred
+phonepe
+gpay
+mobikwik
+freecharge
+lendingkart
+ola
+rapido
+bajajfinserv
+bajajfinance
+muthoot
+manappuram
+cholamandalam
+shriram
+mahindra
+mahindrafinance
+piramal
+l&t
+ltf
+hdfcsales
+m&m
+skfin
+aadhar
+aditya
+idfcfirst
+idfcfsb
+arohan
+svatantra
+neo
+newtap
+nira
+zest
+moneytap
+kissht
+cashe
+paysense
+olamoney
+earlysalary
+fibe
+moneyview
+loantap
+nbfc
+sbi cards
+icici bank
+hdfc life
+bajaj finserv
+reliance nippon
+tata aia
+star health
+manipal cigna
+hdfc ergo
+icici lombard
+care health
+go digit
+acko general
+cholamandalam ms
+bajaj allianz
+iffco tokyo
+new india
+national insurance
+united india
+oriental insurance
+lic of india
+sbicap
+m&mfin
+skfin
+# Regulators / apex
+rbi
+sebi
+irda
+ircai
+pfrda
+bhavishya
+ncdex
+nsdl
+cdsl
+# Infrastructure
+npci
+uidai
+meity
+eci
+eg
+income
+incometax
+gst
+gstn
+icrier
+cbdt
+cbec
+cbic
+ccil
+clearing
+rebit
+ndsl
+npcil
+npci
+bhim
+# Re-check
+bank
+finance
+loan
+insurance
+invest
+wealth
+money
+fintech
