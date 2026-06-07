@@ -19,12 +19,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout (data only)
+      - name: Checkout (full)
         uses: actions/checkout@v4
         with:
-          sparse-checkout: |
-            data
-            README.md
+          fetch-depth: 0
+          # full checkout — .flatgithub/index.json is generated locally and committed
 
       - name: Switch to flat-data branch
         run: |
