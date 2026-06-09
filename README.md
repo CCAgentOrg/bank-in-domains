@@ -13,14 +13,14 @@ GitHub Actions.
 
 | File | Rows | Description |
 |---|---|---|
-| `data/bank_domains_status.csv` | 1349 | All `*.bank.in` subdomains. DNS, IP, HTTPS, status, title |
-| `data/bank_domains_ct_expansion.csv` | 1127 | 1127 subdomains discovered via Wayback + urlscan + HackerTarget (not in the original audit) |
+| ``data/bank_domains_status.csv` | 4199 | All `*.bank.in` subdomains. DNS, IP, HTTPS, status, title |
+| ``data/bank_domains_ct_expansion.csv` | 2839 | 1127 subdomains discovered via Wayback + urlscan + HackerTarget (not in the original audit) |
 | `data/bank_tld_domains_status.csv` | 268 | Probes of `<institution>.bank` (global fTLD gTLD) |
 | `data/fin_in_domains_status.csv` | 376 | `*.fin.in` — TLD exists, no real subdomains |
 | `data/insurance_in_domains_status.csv` | 376 | `*.insurance.in` — apex parked, no subdomains |
 | `data/nbfc_in_domains_status.csv` | 376 | `*.nbfc.in` — apex parked, 1 subdomain |
 | `data/npci_in_domains_status.csv` | 376 | `*.npci.in` — wildcard catch-all (no real signal) |
-| `data/new_subdomains.txt` | 1127 | Plain-text subdomain list (input to `scan_subdomains.py`) |
+| ``data/new_subdomains.txt` | 3376 | Plain-text subdomain list (input to `scan_subdomains.py`) |
 
 All CSVs share the same schema:
 
@@ -32,7 +32,7 @@ domain,dns_resolves,ip_address,https_works,http_works,status_code,title,final_ur
 
 | Namespace | Probed | Resolves | HTTP 200 |
 |---|---:|---:|---:|
-| `*.bank.in` | 1349 | 1025 | 756 |
+| *.bank.in. | 4199 | 1680 | 941 |
 | `*.bank` (global) | 268 | 12 | 9 |
 | `*.fin.in` | 376 | 0 | 0 |
 | `*.insurance.in` | 376 | 0 | 0 |
