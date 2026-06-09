@@ -1,5 +1,7 @@
 # bank-in-domains
 
+![Built with Zo](https://img.shields.io/badge/Built_with-Zo-7c3aed?style=flat-square) ![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey?style=flat-square) ![Updated Daily](https://img.shields.io/badge/Updated-Daily-2ea44f?style=flat-square) ![Entries](https://img.shields.io/badge/Entries-4%2C199-2563eb?style=flat-square) ![CSV JSONL Parquet SQLite](https://img.shields.io/badge/Formats-CSV%20JSONL%20Parquet%20SQLite-8b5cf6?style=flat-square)
+
 **Audit of Indian financial namespace TLDs**. Daily probes of `.bank.in`, `.fin.in`, `.insurance.in`, `.nbfc.in`, `.npci.in`, and the global `.bank` gTLD — DNS resolution, HTTPS reachability, status codes, page titles, and final URLs.
 
 > Why this exists: `.bank.in` is the de-facto namespace for Indian banking web presences, but no authoritative registry publishes a subdomain list. This audit discovers and probes the full namespace — exposing it as flat data for security research, DNS monitoring, vendor attack-surface mapping, and digital public infrastructure transparency.
