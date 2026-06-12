@@ -85,8 +85,25 @@ jobs:
             || touch out/hackertarget.txt
           echo "HackerTarget: $(wc -l < out/hackertarget.txt) hosts"
 
+          # crt.sh Certificate Transparency logs
+          echo "=== crt.sh CT Logs ==="
+          python3 scripts/fetch_ct_subdomains.py
+          if [ -f data/ct_new_subdomains.csv ]; then
+            # Extract domains from CT CSV for merging
+            python3 -c "
+            import csv, sys
+            with open('data/ct_new_subdomains.csv') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    print(row['domain'])
+            " | sort -u > out/ct.txt
+            echo "CT: $(wc -l < out/ct.txt) hosts"
+          else
+            touch out/ct.txt
+          fi
+
           # Merge and dedupe
-          cat out/wayback.txt out/urlscan.txt out/hackertarget.txt \
+          cat out/wayback.txt out/urlscan.txt out/hackertarget.txt out/ct.txt \
             | sort -u > out/discovered.txt
           echo "Total discovered: $(wc -l < out/discovered.txt)"
 
@@ -108,15 +125,73 @@ jobs:
           " > out/new_subdomains.txt
           echo "New: $(wc -l < out/new_subdomains.txt) subdomains"
 
-      - name: Probe new subdomains
+      - name: Probe new subdomains (from Wayback/urlscan/HackerTarget)
         run: |
           if [ -s out/new_subdomains.txt ]; then
             python3 scripts/scan_subdomains.py \
               --in-list out/new_subdomains.txt \
-              --out-csv out/bank_domains_ct_expansion.csv \
+              --out-csv out/bank_domains_new_probed.csv \
               --concurrency 50
           else
             echo "No new subdomains to probe"
+            : > out/bank_domains_new_probed.csv
+          fi
+
+      - name: Probe CT-discovered subdomains
+        run: |
+          if [ -f data/ct_new_subdomains.csv ] && [ -s data/ct_new_subdomains.csv ]; then
+            # Extract domains for probing
+            python3 -c "
+            import csv, sys
+            with open('data/ct_new_subdomains.csv') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    print(row['domain'])
+            " > out/ct_domains_to_probe.txt
+            
+            # Probe DNS/HTTPS
+            python3 scripts/scan_subdomains.py \
+              --in-list out/ct_domains_to_probe.txt \
+              --out-csv out/ct_probed.csv \
+              --concurrency 50
+            
+            # Merge probe results with CT metadata
+            python3 -c "
+            import csv, sys
+            # Load CT metadata (keyed by domain)
+            ct_meta = {}
+            with open('data/ct_new_subdomains.csv') as f:
+                for row in csv.DictReader(f):
+                    ct_meta[row['domain']] = row
+            
+            # Merge with probe results
+            merged = []
+            with open('out/ct_probed.csv') as f:
+                for row in csv.DictReader(f):
+                    domain = row['domain']
+                    if domain in ct_meta:
+                        # Preserve CT metadata
+                        for k, v in ct_meta[domain].items():
+                            if k not in row:
+                                row[k] = v
+                    merged.append(row)
+            
+            # Write enriched CT expansion CSV
+            if merged:
+                fieldnames = ['domain', 'dns_resolves', 'ip_address', 'https_works',
+                              'http_works', 'status_code', 'title', 'final_url', 'error',
+                              'ct_search_type', 'ct_issuer_ca_id', 'ct_issuer_name',
+                              'ct_not_before', 'ct_not_after', 'ct_serial_number',
+                              'ct_entry_timestamp', 'ct_id']
+                with open('out/bank_domains_ct_expansion.csv', 'w', newline='') as f:
+                    w = csv.DictWriter(f, fieldnames=fieldnames)
+                    w.writeheader()
+                    w.writerows(merged)
+            else:
+                open('out/bank_domains_ct_expansion.csv', 'w').close()
+            "
+          else
+            echo "No new CT subdomains to probe"
             : > out/bank_domains_ct_expansion.csv
           fi
 
@@ -129,15 +204,25 @@ jobs:
               reader = csv.DictReader(f)
               fieldnames = reader.fieldnames
               existing = list(reader)
-          new = []
+          
+          # Merge new probed subdomains (Wayback/urlscan/HackerTarget)
+          new_probed = []
+          if __import__('os').path.exists('out/bank_domains_new_probed.csv'):
+              with open('out/bank_domains_new_probed.csv') as f:
+                  new_probed = list(csv.DictReader(f))
+          
+          # Merge CT expansion subdomains
+          ct_expansion = []
           if __import__('os').path.exists('out/bank_domains_ct_expansion.csv'):
               with open('out/bank_domains_ct_expansion.csv') as f:
-                  new = list(csv.DictReader(f))
+                  ct_expansion = list(csv.DictReader(f))
+          
           seen = {r['domain'] for r in existing}
-          for r in new:
+          for r in new_probed + ct_expansion:
               if r['domain'] not in seen:
                   existing.append(r)
                   seen.add(r['domain'])
+          
           existing.sort(key=lambda r: r['domain'])
           with open('data/bank_domains_status.csv', 'w', newline='') as f:
               w = csv.DictWriter(f, fieldnames=fieldnames)
