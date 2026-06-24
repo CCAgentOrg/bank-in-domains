@@ -28,8 +28,8 @@ TIMEOUT = 8
 TLDS = ["fin.in", "insurance.in", "nbfc.in", "npci.in"]
 
 # Curated financial institution prefixes (banks, NBFCs, fintech, insurers, regulators, infra)
-CURATED = Path("/home/workspace/bank-in-research/institutions.txt")
-BANK_IN_CSV = Path("/home/workspace/bank-in-research/bank_domains_status.csv")
+CURATED = Path(__file__).parent / "institutions.txt"
+BANK_IN_CSV = Path(__file__).parent.parent / "data" / "bank_domains_status.csv"
 
 
 def load_prefixes() -> list[str]:
