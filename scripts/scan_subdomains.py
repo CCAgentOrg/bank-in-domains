@@ -99,7 +99,7 @@ async def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--in-list", required=True, help="File with one subdomain per line")
     ap.add_argument("--out-csv", required=True)
-    ap.add_argument("--concurrency", type=int, default=40)
+    ap.add_argument("--concurrency", type=int, default=200)
     ap.add_argument("--max", type=int, default=0, help="Cap rows for testing")
     args = ap.parse_args()
 

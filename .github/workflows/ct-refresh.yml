@@ -12,7 +12,7 @@ permissions:
 jobs:
   ct-refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
@@ -42,7 +42,7 @@ jobs:
             python3 scripts/scan_subdomains.py \
               --in-list out/ct_domains_to_probe.txt \
               --out-csv out/ct_probed.csv \
-              --concurrency 50
+              --concurrency 200
 
             python3 scripts/merge_ct_results.py \
               --ct-csv data/ct_new_subdomains.csv \

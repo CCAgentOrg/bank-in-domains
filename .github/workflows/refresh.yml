@@ -17,7 +17,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
 
     steps:
       - name: Checkout
@@ -42,10 +42,11 @@ jobs:
           mkdir -p out
           cp data/bank_domains_status.csv out/bank_domains_status.csv
 
-          # Wayback CDX (slow, retry on failure)
-          echo "=== Wayback ==="
-          curl -sS --max-time 240 \
-            "http://web.archive.org/cdx/search/cdx?url=bank.in&matchType=domain&collapse=urlkey&limit=200000&output=json&fl=original" \
+          # Wayback CDX — only recent additions (incremental, last 7 days)
+          echo "=== Wayback (incremental: last 7d) ==="
+          FROM_DATE=$(date -u -d '7 days ago' +%Y%m%d%H%M%S)
+          curl -sS --max-time 120 \
+            "http://web.archive.org/cdx/search/cdx?url=bank.in&matchType=domain&collapse=urlkey&limit=50000&output=json&fl=original&from=${FROM_DATE}" \
             | python3 -c "
           import json, sys, re
           try:
@@ -102,6 +103,7 @@ jobs:
           echo "Total discovered: $(wc -l < out/discovered.txt)"
 
       - name: Build new subdomain list (not in existing CSV)
+        id: build_new_subs
         run: |
           python3 scripts/build_new_subdomains.py \
             --existing out/bank_domains_status.csv \
@@ -109,19 +111,34 @@ jobs:
 
           echo "New: $(wc -l < out/new_subdomains.txt) subdomains"
 
+      - name: Check if anything to do
+        id: check_pending
+        run: |
+          has_new=false
+          [ -s out/new_subdomains.txt ] && has_new=true
+          [ -f data/ct_new_subdomains.csv ] && [ -s data/ct_new_subdomains.csv ] && has_new=true
+          echo "has_new=$has_new" >> "$GITHUB_OUTPUT"
+          if [ "$has_new" = "true" ]; then
+            echo "New subdomains or CT data pending — proceeding with probe/merge"
+          else
+            echo "Nothing new — skipping probe, merge, and commit"
+          fi
+
       - name: Probe new subdomains (from Wayback/urlscan/HackerTarget)
+        if: steps.check_pending.outputs.has_new == 'true'
         run: |
           if [ -s out/new_subdomains.txt ]; then
             python3 scripts/scan_subdomains.py \
               --in-list out/new_subdomains.txt \
               --out-csv out/bank_domains_new_probed.csv \
-              --concurrency 50
+              --concurrency 200
           else
             echo "No new subdomains to probe"
             : > out/bank_domains_new_probed.csv
           fi
 
       - name: Probe CT-discovered subdomains
+        if: steps.check_pending.outputs.has_new == 'true'
         run: |
           if [ -f data/ct_new_subdomains.csv ] && [ -s data/ct_new_subdomains.csv ]; then
             # Extract domains for probing
@@ -132,7 +149,7 @@ jobs:
             python3 scripts/scan_subdomains.py \
               --in-list out/ct_domains_to_probe.txt \
               --out-csv out/ct_probed.csv \
-              --concurrency 50
+              --concurrency 200
 
             # Merge probe results with CT metadata
             python3 scripts/merge_ct_results.py \
@@ -145,15 +162,18 @@ jobs:
           fi
 
       - name: Merge and dedupe master CSV
+        if: steps.check_pending.outputs.has_new == 'true'
         run: |
           python3 scripts/merge_master_csv.py
 
       - name: Update discovered list
+        if: steps.check_pending.outputs.has_new == 'true'
         run: |
           cat out/discovered.txt | sort -u > data/new_subdomains.txt
           echo "Updated data/new_subdomains.txt with $(wc -l < data/new_subdomains.txt) entries"
 
       - name: Commit and push
+        if: steps.check_pending.outputs.has_new == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
