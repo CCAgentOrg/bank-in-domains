@@ -138,6 +138,9 @@ alertsuat.bankofindia.bank.in,True,103.109.135.131,False,False,0,,,URLError: <ur
 alliance-sandbox.yesuat.bank.in,True,23.222.241.59,False,False,0,,,TimeoutError: The read operation timed out
 alliance.yes.bank.in,False,,False,False,,,,
 allpaypg.kotak.bank.in,True,123.108.47.9,True,False,404,,https://allpaypg.kotak.bank.in/,
+almappuat.federal.bank.in,False,,False,False,,,,
+almexeuat.federal.bank.in,False,,False,False,,,,
+almorcuat.federal.bank.in,False,,False,False,,,,
 alumni.bankofindia.bank.in,False,,False,False,,,,
 alumni.icici.bank.in,True,103.87.40.225,True,False,200,ICICI ALUMNI,https://alumni.icici.bank.in/,
 alumnidb.bankofindia.bank.in,False,,False,False,,,,
@@ -441,6 +444,7 @@ autodiscover.server1.ukgb.bank.in,False,,False,False,,,,
 autodiscover.server5.kgb.bank.in,False,,False,False,,,,
 autodiscover.sevenhills.bank.in,False,,False,False,,,,
 autodiscover.yes.bank.in,False,,False,False,,,,
+autoloans.federal.bank.in,False,,False,False,,,,
 automationtest-opt.idfcfirst.bank.in,False,,False,False,,,,
 auuat.bank.in,False,,False,False,,,,
 awareness.icici.bank.in,True,13.127.144.160,False,False,0,,,URLError: <urlopen error timed out>
@@ -2917,6 +2921,7 @@ mycard.rbl.bank.in,True,23.48.104.155,True,False,403,,https://mycard.rbl.bank.in
 mycards.hdfc.bank.in,True,35.154.242.159,True,False,403,,https://mycards.hdfc.bank.in/,
 myfastag.icici.bank.in,True,4.224.166.122,True,False,200,Request Rejected,https://myfastag.icici.bank.in/,
 mylang.unionbankonline.bank.in,True,59.160.35.104,False,False,0,,,TimeoutError: The read operation timed out
+mymoney.hdfc.bank.in,False,,False,False,,,,
 mypnb.pnb.bank.in,False,,False,False,,,,
 myrtlepatmobile.axis.bank.in,False,,False,False,,,,
 mysib.bank.in,True,13.248.148.104,True,False,403,,,HTTP 403
@@ -3085,6 +3090,7 @@ npciservices.tripuragramin.bank.in,False,,False,False,,,,
 npos.southindianbank.bank.in,True,103.212.28.170,False,False,0,,,URLError: <urlopen error timed out>
 nps.federal.bank.in,True,61.95.141.197,True,False,200,Request Rejected,https://nps.federal.bank.in/,
 npscorporateportaluat.icici.bank.in,False,,False,False,,,,
+npsportal.axis.bank.in,False,,False,False,,,,
 nraccount.indusind.bank.in,True,159.60.131.186,True,False,200,Open NRI Saving Account &amp; Fixed Deposit Account For NRI | IndusInd Bank,https://nraccount.indusind.bank.in/,
 nridigital.sbi.bank.in,True,103.209.97.116,True,False,200,SBI - Digital Account Services,https://nridigital.sbi.bank.in/,
 nridigital.sbiuat.bank.in,True,103.209.97.114,False,False,0,,,URLError: <urlopen error timed out>
@@ -5885,6 +5891,7 @@ www.mwi.icici.bank.in,False,,False,False,,,,
 www.my.idfcfirst.bank.in,True,23.212.0.243,True,False,200,IDFC FIRST Bank,https://www.my.idfcfirst.bank.in/,
 www.mybusiness.uatdigital.hdfcuat.bank.in,False,,False,False,,,,
 www.mycards.hdfc.bank.in,False,,False,False,,,,
+www.mymoney.hdfc.bank.in,False,,False,False,,,,
 www.nadiadccb.bank.in,False,,False,False,,,,
 www.nagaurccb.bank.in,False,,False,False,,,,
 www.nainitalbank.bank.in,True,180.179.219.153,True,False,200,www.nainitalbank.bank.in,https://www.nainitalbank.bank.in/,
