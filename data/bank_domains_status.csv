@@ -2173,6 +2173,7 @@ ibuat.unionbankonline.bank.in,False,,False,False,,,,
 ibullion.icici.bank.in,False,,False,False,,,,
 icace.icici.bank.in,False,,False,False,,,,
 icartvendor.hdfc.bank.in,True,159.60.128.212,True,False,403,,https://icartvendor.hdfc.bank.in/,
+icc.axis.bank.in,False,,False,False,,,,
 icc.centralbank.bank.in,False,,False,False,,,,
 iccuat.axis.bank.in,True,115.112.85.206,False,False,0,,,URLError: <urlopen error timed out>
 iccwuat.icici.bank.in,False,,False,False,,,,
@@ -2727,6 +2728,7 @@ maxcdn-uat.axis.bank.in,True,3.170.152.126,True,False,403,,https://maxcdn-uat.ax
 maxcdn.axis.bank.in,True,18.160.172.19,True,False,403,,https://maxcdn.axis.bank.in/,
 maximus.axis.bank.in,False,,False,False,,,,
 maxuat.axis.bank.in,False,,False,False,,,,
+mayurbhanjccb.bank.in,True,199.79.63.91,True,False,200,"Home - Welcome to Mayurbhanj Central Co-operative Bank, Baripada",https://mayurbhanjccb.bank.in/,
 mb-nextgen-retail.hdfc.bank.in,False,,False,False,,,,
 mb-prod-upi.mbv3.hdfc.bank.in,False,,False,False,,,,
 mb.dcb.bank.in,True,202.56.244.111,False,False,0,,,URLError: <urlopen error timed out>
@@ -5708,6 +5710,7 @@ www.jkb.bank.in,True,49.50.117.180,True,False,200,Home | Official Website of Jam
 www.jkgrameen.bank.in,True,111.118.189.216,True,False,200,Jammu and Kashmir Grameen Bank -- Engendering Empowerment : Official Website | jkgrameen.bank.in,https://www.jkgrameen.bank.in/,
 www.jmnsbm.bank.in,True,144.76.156.2,True,False,200,jabalpur mahila nagrik sahkari bank maryadit jabalpur (m.p.),https://www.jmnsbm.bank.in/,
 www.jpacqupisigner.federal.bank.in,False,,False,False,,,,
+www.jpc.bank.in,True,103.87.175.20,True,False,200,Home:JPCB,https://www.jpc.bank.in/,
 www.jrgbank-uat.bank.in,False,,False,False,,,,
 www.jrgbank.bank.in,False,,False,False,,,,
 www.jsbdharashiv.bank.in,True,13.127.23.75,True,False,200,"Janata Sahakari Bank Ltd, Dharashiv | Multi-State Bank",https://www.jsbdharashiv.bank.in/,
