@@ -2532,6 +2532,7 @@ kanaradcc.bank.in,True,72.60.206.139,True,False,200,The Kanara DCC Bank Ltd,http
 kangra.bank.in,True,49.50.81.76,True,False,200,The Kangra Co-operative Bank Ltd.,https://kangra.bank.in/,
 kapps.kotak.bank.in,True,14.141.97.16,True,False,404,,https://kapps.kotak.bank.in/,
 kappsuat.kotakuat.bank.in,True,104.18.20.233,True,False,503,,https://kappsuat.kotakuat.bank.in/,
+karamanaurban.bank.in,True,117.247.187.194,False,False,0,,,URLError: <urlopen error _ssl.c:993: The handshake operation timed out>
 karimnagardccb.bank.in,True,68.178.169.42,True,False,200,karimnagar dccb ( District Cooperative Central Bank ),https://karimnagardccb.bank.in/,
 karnatakaapex.bank.in,True,103.92.235.175,True,False,200,APEX BANK,https://karnatakaapex.bank.in/new/,
 karnatakabank.bank.in,True,159.60.135.75,True,False,200,"Karnataka Bank: Personal Banking, Agri Banking, NRI Banking &amp; Business Banking Services",https://www.karnatakabank.bank.in/,
