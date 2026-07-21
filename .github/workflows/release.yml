@@ -2,12 +2,12 @@ name: Weekly data release
 
 on:
   schedule:
-    # Weekly on Sunday at 06:00 UTC (11:30 IST)
+    # Sunday 06:00 UTC (11:30 IST)
     - cron: "0 6 * * 0"
   workflow_dispatch:
     inputs:
       force_version:
-        description: 'Force a specific version (e.g., 2026.7.2). Leave empty for auto.'
+        description: "Override version tag (e.g. 2026.7.3). Leave empty for auto."
         required: false
         type: string
 
@@ -25,112 +25,154 @@ jobs:
 
       - name: Compute version
         id: version
-        shell: bash
         run: |
-          if [ -n "${{ github.event.inputs.force_version }}" ]; then
-            echo "tag=v${{ github.event.inputs.force_version }}" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
           YEAR=$(date -u +%Y)
           MONTH=$(date -u +%-m)
 
-          # Scan existing tags to find the highest rev for this month
-          LAST_REV=$(git tag --list "v${YEAR}.${MONTH}.*" \
-            | sed "s/^v${YEAR}\.${MONTH}\.//" \
-            | sort -n \
-            | tail -1)
-
-          NEXT_REV=$((LAST_REV + 1))
-          TAG="v${YEAR}.${MONTH}.${NEXT_REV}"
-          echo "tag=$TAG" >> $GITHUB_OUTPUT
-          echo "year=$YEAR" >> $GITHUB_OUTPUT
-          echo "month=$MONTH" >> $GITHUB_OUTPUT
-          echo "rev=$NEXT_REV" >> $GITHUB_OUTPUT
-
-      - name: Compute changelog & delta
-        id: changelog
-        shell: bash
-        run: |
-          # Find previous release tag (the one right before this)
-          PREV_TAG=$(git tag --list 'v*' --sort=-version:refname | head -1 || true)
-
-          THIS_TAG="${{ steps.version.outputs.tag }}"
-
-          echo "### tag=$THIS_TAG prev=$PREV_TAG"
-
-          # Domain counts from current data
-          DOMAIN_COUNT=$(wc -l < data/bank_domains_status.csv 2>/dev/null || echo 0)
-          NEW_COUNT=$(wc -l < data/new_subdomains.txt 2>/dev/null || echo 0)
-          CT_EXPANSION_COUNT=$(wc -l < data/bank_domains_ct_expansion.csv 2>/dev/null || echo 0)
-
-          # Compute what changed vs previous tag
-          CHANGELOG="## ${THIS_TAG}\n\n"
-          CHANGELOG+="**Release date:** $(date -u '+%Y-%m-%d %H:%M UTC')\n\n"
-
-          echo "DOMAIN_COUNT=$DOMAIN_COUNT" >> $GITHUB_OUTPUT
-          echo "NEW_COUNT=$NEW_COUNT" >> $GITHUB_OUTPUT
-          echo "CT_EXPANSION_COUNT=$CT_EXPANSION_COUNT" >> $GITHUB_OUTPUT
-
-          if [ -z "$PREV_TAG" ] || [ "$PREV_TAG" = "$THIS_TAG" ]; then
-            CHANGELOG+="### Initial release — baseline inventory\n\n"
-            CHANGELOG+="| Metric | Value |\n"
-            CHANGELOG+="|--------|-------|\n"
-            CHANGELOG+="| Total bank.in domains tracked | ${DOMAIN_COUNT} |\n"
-            CHANGELOG+="| New subdomains | ${NEW_COUNT} |\n"
-            CHANGELOG+="| CT expansion entries | ${CT_EXPANSION_COUNT} |\n"
+          if [ -n "${{ inputs.force_version }}" ]; then
+            echo "tag=v${{ inputs.force_version }}" >> "$GITHUB_OUTPUT"
+            echo "Bumping from user override: ${{ inputs.force_version }}"
           else
-            # Delta from previous tag to HEAD
-            CHANGED_FILES=$(git diff --name-only "$PREV_TAG"..HEAD -- data/ | wc -l)
-            COMMITS_SINCE=$(git rev-list --count "$PREV_TAG"..HEAD)
+            # Find highest existing nth-release this month
+            LAST=$(git tag --list "v${YEAR}.${MONTH}.*" | sed "s/^v${YEAR}\.${MONTH}\.//" | sort -n | tail -1)
+            if [ -z "$LAST" ] || [ "$LAST" = "0" ]; then
+              NEXT=1
+            else
+              NEXT=$((LAST + 1))
+            fi
+            echo "tag=v${YEAR}.${MONTH}.${NEXT}" >> "$GITHUB_OUTPUT"
+            echo "version=${YEAR}.${MONTH}.${NEXT}" >> "$GITHUB_OUTPUT"
+          fi
 
-            # Subdomain-level delta if new_subdomains.txt exists
-            SUBDOMAIN_DELTA=""
-            if [ -f data/new_subdomains.txt ] && [ -s data/new_subdomains.txt ]; then
-              SUBDOMAIN_DELTA=$(head -20 data/new_subdomains.txt | sed 's/^/  - /')
-              TOTAL_NEW=$(wc -l < data/new_subdomains.txt)
+      - name: Compute delta from last release
+        id: delta
+        run: |
+          # Find the most recent tag that is an ancestor of HEAD (excluding current)
+          LAST_TAG=$(git describe --tags --abbrev=0 HEAD~0 2>/dev/null || echo "")
+          # If LAST_TAG is the tag we're about to create, walk back further
+          if [ "$LAST_TAG" = "${{ steps.version.outputs.tag }}" ]; then
+            LAST_TAG=$(git describe --tags --abbrev=0 HEAD~1 2>/dev/null || echo "")
+          fi
+
+          if [ -z "$LAST_TAG" ]; then
+            echo "No previous release tag found — this is the first release."
+            echo "commits=0" >> "$GITHUB_OUTPUT"
+            echo "log_full=* Initial release" >> "$GITHUB_OUTPUT"
+            echo "prev_tag=" >> "$GITHUB_OUTPUT"
+          else
+            echo "prev_tag=${LAST_TAG}" >> "$GITHUB_OUTPUT"
+            COMMITS=$(git rev-list "$LAST_TAG"..HEAD --count)
+            echo "commits=${COMMITS}" >> "$GITHUB_OUTPUT"
+
+            LOG=$(git log "$LAST_TAG"..HEAD --oneline --no-decorate)
+            # Escape newlines for GITHUB_OUTPUT
+            LOG_ESCAPED="${LOG//$'\n'/'%0A'}"
+            echo "log_full=${LOG_ESCAPED}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build release notes
+        id: notes
+        run: |
+          TAG="${{ steps.version.outputs.tag }}"
+          YEAR=$(date -u +%Y)
+          MONTH=$(date -u +%B)
+          DAY=$(date -u +%d)
+
+          NOTES="# Bank.in Domain Audit — Release ${TAG#v}\n\n"
+          NOTES+="**Date:** ${DAY} ${MONTH} ${YEAR}  \n"
+          NOTES+="**Audit scope:** IDRBT .bank.in domains and related Indian financial TLDs\n\n"
+
+          PREV="${{ steps.delta.outputs.prev_tag }}"
+
+          if [ -n "$PREV" ]; then
+            COMMITS="${{ steps.delta.outputs.commits }}"
+            NOTES+="## Changes since ${PREV}\n\n"
+            NOTES+="- **${COMMITS} commits** since ${PREV}\n"
+
+            # File diff stats
+            DIFF_STATS=$(git diff --stat "$PREV"..HEAD -- data/ | tail -1)
+            if [ -n "$DIFF_STATS" ]; then
+              NOTES+="- **Data changes:** ${DIFF_STATS}\n"
             fi
 
-            CHANGELOG+="### Delta from ${PREV_TAG}\n\n"
-            CHANGELOG+="| Metric | Value |\n"
-            CHANGELOG+="|--------|-------|\n"
-            CHANGELOG+="| Commits since last release | ${COMMITS_SINCE} |\n"
-            CHANGELOG+="| Data files changed | ${CHANGED_FILES} |\n"
-            CHANGELOG+="| Total bank.in domains tracked | ${DOMAIN_COUNT} |\n"
-            CHANGELOG+="| New subdomains found | ${NEW_COUNT} |\n"
-            CHANGELOG+="| CT expansion entries | ${CT_EXPANSION_COUNT} |\n"
-
-            if [ -n "$SUBDOMAIN_DELTA" ]; then
-              CHANGELOG+="\n### New subdomains\n"
-              CHANGELOG+="\`\`\`\n${SUBDOMAIN_DELTA}\n\`\`\`\n"
-              if [ "$TOTAL_NEW" -gt 20 ]; then
-                CHANGELOG+="_...and $((TOTAL_NEW - 20)) more_\n"
+            # New subdomains delta
+            if git show "$PREV:data/bank_domains_status.csv" &>/dev/null 2>/dev/null; then
+              OLD_COUNT=$(tail -n +2 <(git show "$PREV:data/bank_domains_status.csv") 2>/dev/null | wc -l)
+              NEW_COUNT=$(tail -n +2 data/bank_domains_status.csv 2>/dev/null | wc -l)
+              if [ "$NEW_COUNT" -ge "$OLD_COUNT" ] 2>/dev/null; then
+                DIFF=$((NEW_COUNT - OLD_COUNT))
+                NOTES+="- **Subdomains:** ${NEW_COUNT} total (+${DIFF} since ${PREV})\n"
+              else
+                NOTES+="- **Subdomains:** ${NEW_COUNT} total (pruned)\n"
               fi
+            fi
+
+            # New subdomains list (capped)
+            if [ -f data/new_subdomains.txt ] && [ -s data/new_subdomains.txt ]; then
+              COUNT=$(wc -l < data/new_subdomains.txt)
+              NOTES+="- **Newly discovered:** ${COUNT} subdomains\n"
+            fi
+
+            # Commit log
+            NOTES+="\n### Commits\n\n"
+            LOG="${{ steps.delta.outputs.log_full }}"
+            if [ -n "$LOG" ]; then
+              NOTES+="\`\`\`\n${LOG}\n\`\`\`\n"
+            fi
+          else
+            # First release — full stats
+            NOTES+="## Initial Release\n\n"
+            if [ -f data/bank_domains_status.csv ]; then
+              COUNT=$(tail -n +2 data/bank_domains_status.csv | wc -l)
+              NOTES+="- **Total subdomains tracked:** ${COUNT}\n"
+            fi
+            for f in data/*_status.csv; do
+              NAME=$(basename "$f" _status.csv)
+              CNT=$(tail -n +2 "$f" 2>/dev/null | wc -l)
+              NOTES+="  - \`${NAME}\`: ${CNT} domains\n"
+            done
+            if [ -f data/new_subdomains.txt ] && [ -s data/new_subdomains.txt ]; then
+              COUNT=$(wc -l < data/new_subdomains.txt)
+              NOTES+="- **New subdomains (current batch):** ${COUNT}\n"
             fi
           fi
 
-          echo "changelog<<__CHANGELOG_EOF__" >> $GITHUB_OUTPUT
-          printf "%b" "$CHANGELOG" >> $GITHUB_OUTPUT
-          echo "__CHANGELOG_EOF__" >> $GITHUB_OUTPUT
+          # Data summary
+          NOTES+="\n## Current Data Summary\n\n"
+          if [ -f data/bank_domains_status.csv ]; then
+            TOTAL=$(tail -n +2 data/bank_domains_status.csv | wc -l)
+            NOTES+="- **Total subdomains:** ${TOTAL}\n"
+          fi
+          if [ -f data/bank_domains_ct_expansion.csv ]; then
+            CT=$(tail -n +2 data/bank_domains_ct_expansion.csv | wc -l)
+            NOTES+="- **CT expansion entries:** ${CT}\n"
+          fi
 
-      - name: Build release artifact
-        shell: bash
+          # Write to file for multiline body
+          echo -e "$NOTES" > /tmp/release_notes.md
+          cat /tmp/release_notes.md
+
+      - name: Prepare release assets
         run: |
-          mkdir -p release-assets
-          cp data/bank_domains_status.csv release-assets/
-          cp data/bank_domains_ct_expansion.csv release-assets/ 2>/dev/null || true
-          cp data/new_subdomains.txt release-assets/ 2>/dev/null || true
-          # Compress the full data snapshot
-          tar czf release-assets/bank-in-data-snapshot.tar.gz data/*.csv data/new_subdomains.txt 2>/dev/null || true
+          mkdir -p /tmp/release-assets
+          # Copy main data files
+          cp data/bank_domains_status.csv /tmp/release-assets/
+          cp data/bank_domains_ct_expansion.csv /tmp/release-assets/ 2>/dev/null || true
+          cp data/new_subdomains.txt /tmp/release-assets/ 2>/dev/null || true
+          cp data/bank_tld_domains_status.csv /tmp/release-assets/ 2>/dev/null || true
+          cp data/npci_in_domains_status.csv /tmp/release-assets/ 2>/dev/null || true
+
+          # Create a full snapshot tar.gz
+          cd data
+          tar czf /tmp/release-assets/bank-in-data-snapshot.tar.gz *.csv *.txt *.json 2>/dev/null || true
 
       - name: Create Release
-        id: create_release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: ${{ steps.version.outputs.tag }}
-          body: ${{ steps.changelog.outputs.changelog }}
-          files: release-assets/*
-          draft: false
-          prerelease: false
+          body_path: /tmp/release_notes.md
+          files: |
+            /tmp/release-assets/*
+          fail_on_unmatched_files: false
           generate_release_notes: false
