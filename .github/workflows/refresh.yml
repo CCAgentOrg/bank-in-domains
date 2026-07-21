@@ -34,6 +34,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install dnspython
 
+      - name: Install subfinder
+        run: |
+          go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+
       - name: Discover new subdomains
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -97,8 +102,13 @@ jobs:
             touch out/ct.txt
           fi
 
-          # Merge and dedupe
-          cat out/wayback.txt out/urlscan.txt out/hackertarget.txt out/ct.txt \
+          # subfinder (all passive sources: AlienVault, VirusTotal, SecurityTrails, Shodan, +20 more)
+          echo "=== subfinder ==="
+          subfinder -d bank.in -all -silent -o out/subfinder.txt 2>/dev/null || touch out/subfinder.txt
+          echo "subfinder: $(wc -l < out/subfinder.txt) hosts"
+
+          # Merge and dedupe all sources including subfinder
+          cat out/wayback.txt out/urlscan.txt out/hackertarget.txt out/ct.txt out/subfinder.txt \
             | sort -u > out/discovered.txt
           echo "Total discovered: $(wc -l < out/discovered.txt)"
 

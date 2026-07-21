@@ -97,6 +97,7 @@ Subdomains are gathered from multiple independent sources to maximise coverage:
 4. **HackerTarget hostsearch** — DNS-based discovery. Queries `api.hackertarget.com/hostsearch/?q=bank.in`. Recency varies; capped at ~50 results on free tier.
 
 5. **RBI website** — Initial curated list of institution prefixes used as seed data.
+6. **subfinder** — Aggregated passive reconnaissance from 20+ sources (AlienVault OTX, AnubisDB, Archive.is, BinaryEdge, BufferOver, Censys, CertSpotter, Chaos, CommonCrawl, DNSDumpster, Digitorus, FullHunt, GitHub, IntelX, LeakIX, Netlas, PassiveTotal, Pulsedive, Quake, Rapiddns, RocketBlock, SecurityTrails, Shodan, Sitedossier, ThreatBook, VirusTotal, WhoisXML, ZoomEye). Caps the gap of sources that don't have public free APIs.
 
 ### Probing
 
@@ -133,7 +134,11 @@ Concurrency: 100 parallel probes (configurable via `--concurrency`). Full audit 
 | `scripts/scan_domains.py` | Cross-probe every institution prefix across a given TLD. |
 | `scripts/audit_financial_tlds.py` | Full multi-TLD audit sweep in one pass. |
 | `scripts/scan_global_bank.py` | Probe global `.bank` (fTLD) with `.bank.in` prefixes. |
-| `scripts/build_subdomain_list.py` | Merge discovery outputs from Wayback, urlscan, HackerTarget. |
+| `scripts/build_new_subdomains.py` | Diff discovered domains against master CSV to find unseen subdomains. |
+| `scripts/merge_master_csv.py` | Merge new probe results into the master `bank_domains_status.csv`. |
+| `scripts/build_subdomain_list.py` | Legacy: merge discovery outputs from Wayback, urlscan, HackerTarget. |
+| `scripts/fetch_ct_subdomains.py` | Async crt.sh CT log fetcher with expiry filtering, identity + dNSName search. |
+| `scripts/merge_ct_results.py` | Merge CT cert metadata with probe results. |
 
 ## Reproduce
 
@@ -182,7 +187,7 @@ Browse individual files, view as tables, or fetch raw CSVs for pipelines.
 
 ## CI / CD
 
-- `.github/workflows/refresh.yml` — Daily at 02:30 UTC (08:00 IST): discovers new subdomains from Wayback/urlscan/HackerTarget, probes them, merges into master CSV, commits.
+- `.github/workflows/refresh.yml` — Daily at 02:30 UTC (08:00 IST): discovers new subdomains from Wayback/urlscan/HackerTarget/CT/subfinder, probes them, merges into master CSV, commits and pushes changes.
 - `.github/workflows/flat-data.yml` — Daily at 03:00 UTC: syncs `data/` to a `flat-data` branch for flatgithub.com.
 
 ---
@@ -203,6 +208,7 @@ This dataset is dedicated to the public domain. No copyright asserted. No restri
 - **Wayback Machine CDX API** — Internet Archive's web crawl index
 - **urlscan.io** — Website scanner and domain intelligence
 - **HackerTarget hostsearch API** — DNS enumeration service
+- **subfinder** — Subdomain discovery toolkit (projectdiscovery/subfinder) — 20+ passive sources
 - **RBI website** — Initial institution prefix list
 
 ---

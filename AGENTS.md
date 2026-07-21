@@ -48,10 +48,10 @@ error            — Error message if request failed
 
 ## Workflows
 
-- `.github/workflows/refresh.yml` — Daily: discover new subdomains from Wayback/urlscan/HackerTarget → probe → merge → commit
+- `.github/workflows/refresh.yml` — Daily: discover new subdomains from Wayback/urlscan/HackerTarget/CT/subfinder → probe → merge → commit
 - `.github/workflows/flat-data.yml` — Syncs `data/` to a `flat-data` branch for flatgithub.com consumption
 
-The daily refresh pipeline does NOT yet include crt.sh; CT expansion is currently a manual step. To automate it, add a CT retrieval step to `refresh.yml`.
+The daily refresh pipeline now includes crt.sh CT logs and subfinder (20+ passive sources) alongside Wayback, urlscan, and HackerTarget.
 
 ## Data Release
 
