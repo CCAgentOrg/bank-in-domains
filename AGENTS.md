@@ -89,3 +89,47 @@ Tagged releases (`2026.06`, etc.) are published to GitHub Releases with the data
 ## Naming Convention
 
 All active probe CSVs follow `{namespace}_domains_status.csv`. Expansion/discovery files use descriptive names without the `_status` suffix.
+
+## Pipeline Architecture
+
+### Daily (Zo Agent → commit → push)
+- **What**: Runs `scripts/zo_refresh.sh` at 02:30 UTC (08:00 IST)
+- **Sources**: Wayback CDX, urlscan.io, HackerTarget, crt.sh CT logs, subfinder (20+ passive sources)
+- **Steps**: Discover → build new list → probe (ping/http/https/dns) → merge into main status CSV → commit
+- **Output**: Updates `data/` files (CSV, seen cache, new subdomains list) and pushes to main
+- **On no new data**: Skips probe/merge/commit entirely
+
+### Weekly (GitHub Actions → Release)
+- **What**: `release.yml` workflow runs Sunday 06:00 UTC
+- **Tag format**: `v{year}.{month}.{release_n}` — auto-increments within the month (e.g. `v2026.7.1`)
+- **Changelog**: Delta from last release: commits, files changed, new subdomains (with list), domain counts
+- **Assets**: CSV data files + full tar.gz snapshot attached to release
+- **Manual trigger**: Supports `workflow_dispatch` with optional `force_version` input
+
+### Quick links
+- [Daily refresh agent status](/?t=automations) — Zo agent
+- [Release workflow](/.github/workflows/release.yml) — weekly GHA
+- [Release history](https://github.com/CCAgentOrg/bank-in-domains/releases)
+
+## Repo Structure
+
+```
+scripts/
+├── zo_refresh.sh           # Zo-based daily pipeline entrypoint
+├── fetch_ct_subdomains.py   # crt.sh certificate log fetching
+├── build_subdomain_list.py  # CT+archival source merging
+├── scan_subdomains.py       # Probe discovered domains
+└── turso_client.py          # Turso/LibSQL database client
+
+data/
+├── bank_domains_status.csv       # Master inventory (committed)
+├── bank_domains_ct_expansion.csv # CT expansion data
+├── ct_seen.json                  # CT fetch cache (avoids re-fetch)
+├── ct_new_subdomains.csv         # Newly discovered via CT logs
+├── new_subdomains.txt            # New subdomains (probe input)
+├── bank_tld_domains_status.csv   # Bank TLD .in domains
+├── fin_in_domains_status.csv     # Financial .in domains
+├── insurance_in_domains_status.csv
+├── nbfc_in_domains_status.csv
+└── npci_in_domains_status.csv
+```
