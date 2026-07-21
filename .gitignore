@@ -5,6 +5,13 @@ __pycache__/
 .venv/
 venv/
 
+# Coverage
+.coverage
+.coveragerc
+
+# Test
+tests/
+
 # Logs
 *.log
 

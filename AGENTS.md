@@ -53,6 +53,35 @@ error            — Error message if request failed
 
 The daily refresh pipeline now includes crt.sh CT logs and subfinder (20+ passive sources) alongside Wayback, urlscan, and HackerTarget.
 
+## Zo-based Refresh (alternative to GitHub Actions)
+
+GitHub Actions has a 45-minute timeout and the pipeline routinely exceeds it.
+A **Zo agent** runs the full pipeline on Zo and pushes to GitHub instead.
+
+| File | Role |
+|---|---|
+| `scripts/zo_refresh.sh` | Zo-based runner: discovery → probe → merge → push |
+| `/tmp/bank-in-refresh/` | Status markers written by the script (for agent monitoring) |
+
+### How to run manually
+
+```bash
+bash /home/workspace/Projects/bank-in-domains/scripts/zo_refresh.sh
+```
+
+The script writes step-done markers to `/tmp/bank-in-refresh/*.done` and
+a final result to `/tmp/bank-in-refresh/result.txt`.
+
+### Automation
+
+- **Name**: Bank.in Domain Refresh
+- **Schedule**: Daily at 8:00 AM IST (02:30 UTC) — matches the old GH Actions time
+- **Instruction**: see the Zo agent configuration
+- **Model**: Zen DS4 Flash (b5700bd6)
+
+If the agent run times out (10-min bash limit), the script continues in the
+background via nohup; the next day's run will pick up any unfinished state.
+
 ## Data Release
 
 Tagged releases (`2026.06`, etc.) are published to GitHub Releases with the dataset in multiple formats (CSV, JSONL, SQLite, Parquet). Also available via zo.pub at `https://zo.pub/cashlessconsumer/bank-domains-status`.
