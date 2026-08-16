@@ -9967,6 +9967,7 @@ vkyc.centralbank.bank.in,False,,False,False,,,,
 vkyc.clients.sc.bank.in,False,,False,False,,,,
 vkyc.csb.bank.in,False,,False,False,,,,
 vkyc.cub.bank.in,False,,False,False,,,,
+vkyc.dcb.bank.in,False,,False,False,,,,
 vkyc.equitas.bank.in,False,,False,False,,,,
 vkyc.federal.bank.in,True,61.95.141.148,False,False,0,,,URLError: <urlopen error timed out>
 vkyc.fino.bank.in,False,,False,False,,,,
