@@ -2881,6 +2881,7 @@ defencebank1906.bank.in
 delight.dhan.bank.in
 delights.bandhan.bank.in
 delights.dbs.bank.in
+delivery.abhyudaya.bank.in
 delivery.agvb.bank.in
 delivery.alerts.axisbankmail.bank.in
 delivery.axis.bank.in
@@ -11022,7 +11023,6 @@ www.canarauat.bank.in
 www.canariteslearning.canarabank.bank.in
 www.caoduat.icici.bank.in
 www.capi.hdfc.bank.in
-www.capital.bank.in
 www.capitalsfbuat.bank.in
 www.capiuat.hdfcuat.bank.in
 www.capp-pg.jiopayments.bank.in
@@ -11534,7 +11534,6 @@ www.devos.hdfcuat.bank.in
 www.devport.hdfc.bank.in
 www.devportuat.hdfcuat.bank.in
 www.dhakuriacoop.bank.in
-www.dhan.bank.in
 www.dharati.bank.in
 www.dharmaj.bank.in
 www.dhluat.bankofbaroda.bank.in
@@ -12624,6 +12623,7 @@ www.las.cub.bank.in
 www.lastmilewebuat.hdfcuat.bank.in
 www.lasuat.kotakuat.bank.in
 www.latururban.bank.in
+www.laxmimahila.bank.in
 www.laxmisahakari.bank.in
 www.lccinsidertrading.indusind.bank.in
 www.lcconnect.icici.bank.in
@@ -13845,7 +13845,6 @@ www.surveysms.idbi.bank.in
 www.suryashakti.sbi.bank.in
 www.suryoday.bank.in
 www.susptxn.federal.bank.in
-www.svc.bank.in
 www.svsbl.bank.in
 www.swayam.hdfc.bank.in
 www.swayam.sbi.bank.in
@@ -14013,7 +14012,6 @@ www.uatuotm.icici.bank.in
 www.ucbanks.karnatakaapex.bank.in
 www.ucblrourkela.bank.in
 www.ucbrishikesh.bank.in
-www.uco.bank.in
 www.uddp.hdfcuat.bank.in
 www.udir.auuat.bank.in
 www.udir.bankofbaroda.bank.in
