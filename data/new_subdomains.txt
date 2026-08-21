@@ -2097,7 +2097,6 @@ communication.icici.bank.in
 communications.bankofindia.bank.in
 communications.sbi.bank.in
 complaint.alavi.bank.in
-complaint.aucb.bank.in
 complaint.barodacity.bank.in
 complaint.bavla.bank.in
 complaint.bnsbank.bank.in
@@ -2121,7 +2120,6 @@ complaint.unioncoop.bank.in
 complaints.zoroastrianbank.bank.in
 compliance.fino.bank.in
 comservice.indusind.bank.in
-concurrentauditor.centralbank.bank.in
 connect.bharatbank.bank.in
 connect.hdfc.bank.in
 connect.karnatakagb.bank.in
@@ -4034,7 +4032,6 @@ fedwealthuat.federal.bank.in
 fedwebapp.federal.bank.in
 feebook.southindianbank.bank.in
 feedback.au.bank.in
-feedback.bankofmaharashtra.bank.in
 feedback.centralbank.bank.in
 feedback.idbi.bank.in
 feedback.ujjivansfb.bank.in
@@ -4254,7 +4251,6 @@ gandhibag.bank.in
 ganga.bank.in
 gateway.dcb.bank.in
 gateway.federal.bank.in
-gateway.prodnvibl.indusind.bank.in
 gateway.rbl.bank.in
 gatewayuat.rbl.bank.in
 gautam.bank.in
@@ -4950,7 +4946,6 @@ inb.apcob.bank.in
 inb.aprb.bank.in
 inb.bhavnagar.bank.in
 inb.centralbank.bank.in
-inb.cgb.bank.in
 inb.coastal.bank.in
 inb.dccbjagdalpur.bank.in
 inb.dccbpanna.bank.in
@@ -5670,6 +5665,7 @@ lms.indianbankuat.bank.in
 lms.indusind.bank.in
 lmsdashboard.axis.bank.in
 lmsnhai.axis.bank.in
+lmsprod.jana.bank.in
 lmsuat.axis.bank.in
 lmsuat.bankofbaroda.bank.in
 lnapp1a13202.federal.bank.in
@@ -5850,7 +5846,6 @@ mail.ansb.bank.in
 mail.apcob.bank.in
 mail.arunachalapexbank.bank.in
 mail.arvindsahakari.bank.in
-mail.askaccb.bank.in
 mail.aurangabaddccb.bank.in
 mail.bailhongalurbancoop.bank.in
 mail.balangirdccb.bank.in
@@ -5874,7 +5869,6 @@ mail.cgapex.bank.in
 mail.chaitanya.bank.in
 mail.chandrapurdccb.bank.in
 mail.chennaiccb.bank.in
-mail.chhaninagrik.bank.in
 mail.chikkamagalurudcc.bank.in
 mail.chopdapeoples.bank.in
 mail.coastal.bank.in
@@ -6038,7 +6032,6 @@ mail.sgc.bank.in
 mail.shahubankpune.bank.in
 mail.shiveshwar.bank.in
 mail.shriram.bank.in
-mail.shrirukmini.bank.in
 mail.shriveershaivmail.bank.in
 mail.shrivijaymahantesh.bank.in
 mail.sib.bank.in
@@ -6569,9 +6562,6 @@ mvisamobileuat.hdfcuat.bank.in
 mwcb.bank.in
 mwcustodyuat.axis.bank.in
 mwi.icici.bank.in
-mx01.indusind.bank.in
-mx03.indusind.bank.in
-mx18.yes.bank.in
 mxapp.indusind.bank.in
 my.idfcfirst.bank.in
 my.idfcfrs.bank.in
@@ -6693,7 +6683,6 @@ neomerchantdemo.axis.bank.in
 neomerchantuat.axis.bank.in
 neomerchantwebuat.axis.bank.in
 neopay.axis.bank.in
-neoplus.bandhan.bank.in
 neopluscorpsalary.bandhan.bank.in
 neopluscorpsalaryuat.bandhan.bank.in
 neoplusdigitalca.bandhan.bank.in
@@ -6732,7 +6721,6 @@ netbanking.barclays.bank.in
 netbanking.bccb.bank.in
 netbanking.capital.bank.in
 netbanking.ccbrajkot.bank.in
-netbanking.citizencredit.bank.in
 netbanking.csb.bank.in
 netbanking.cug.au.bank.in
 netbanking.deogiri.bank.in
@@ -7114,7 +7102,6 @@ oneviewprepaid.sbi.bank.in
 onex.suryoday.bank.in
 onexapp.suryoday.bank.in
 oniuat.axis.bank.in
-online-esavings.capital.bank.in
 online-ion-country-uat1.cashpro.bankofamerica.bank.in
 online-ion-lt.cashpro.bankofamerica.bank.in
 online-ion-prod.cashpro.bankofamerica.bank.in
@@ -7241,6 +7228,7 @@ outbound.upiuatv3.axis.bank.in
 outremit.axis.bank.in
 outremittancemto.yes.bank.in
 outremittancemto.yesuat.bank.in
+outsys1.rbl.bank.in
 outwardremitmto.yes.bank.in
 outwardremitmto.yesuat.bank.in
 ovcp.idbi.bank.in
@@ -7468,7 +7456,6 @@ pib.dcb.bank.in
 pijpeoples.bank.in
 pimco.bank.in
 pimcobank.bank.in
-pineapp.karnatakaapex.bank.in
 pingmerchantuat.axis.bank.in
 pingupi.axis.bank.in
 pingupiweb.axis.bank.in
@@ -8035,10 +8022,12 @@ rm.onboard.cubuat.bank.in
 rm1-sarathi-proxy.axis.bank.in
 rm360uat.alerts.federal.bank.in
 rma.ebusiness.bk.mufg.bank.in
+rmb.e.ebusiness.bk.mufg.bank.in
 rmb.ebusiness.bk.mufg.bank.in
 rmb.unionbankofindia.bank.in
 rmc.e.ebusiness.bk.mufg.bank.in
 rmc.ebusiness.bk.mufg.bank.in
+rmd.e.ebusiness.bk.mufg.bank.in
 rmd.ebusiness.bk.mufg.bank.in
 rmekonnect.kotak.bank.in
 rmekonnect.kotakuat.bank.in
@@ -8360,6 +8349,7 @@ selfeloans-web.equitas.bank.in
 selfeloans-webpp.equitasuat.bank.in
 selfeloans-websit.equitasuat.bank.in
 selfeloans-webuat.equitasuat.bank.in
+selfserve.capital.bank.in
 selfservice.dcb.bank.in
 sentry.dcb.bank.in
 sentry1.dcb.bank.in
@@ -8919,7 +8909,6 @@ suratnational.bank.in
 suratpay.spcbl.bank.in
 surelos.beta.bankofindia.bank.in
 surveillancecam.federal.bank.in
-survey.bankofmaharashtra.bank.in
 survey.cub.bank.in
 survey.cubuat.bank.in
 survey.ujjivansfb.bank.in
@@ -9575,7 +9564,6 @@ ucorealty.uco.bank.in
 ucouat.bank.in
 udaan.pnb.bank.in
 udaan.pnbuat.bank.in
-udapplication.abhyudaya.bank.in
 uddp.hdfcuat.bank.in
 udir.au.bank.in
 udir.auuat.bank.in
@@ -10688,7 +10676,6 @@ www.apbsit.airtelpaymentsuat.bank.in
 www.apcob.bank.in
 www.apexd.bankofmaharashtra.bank.in
 www.apgb.bank.apgb.bank.in
-www.apgb.bank.in
 www.apgb.in.apgb.bank.in
 www.api-icici.icici.bank.in
 www.api-nb-nextgen-perf.hdfcuat.bank.in
@@ -10764,7 +10751,6 @@ www.apiuat.hdfcuat.bank.in
 www.apiuatgw.cboi.bank.in
 www.apiuatgwytrust.southindianbank.bank.in
 www.apiyl.sbiuat.bank.in
-www.apmahesh.bank.in
 www.apna.bank.in
 www.app.airtelpayments.bank.in
 www.app.kotak.bank.in
@@ -10880,7 +10866,6 @@ www.banas.bank.in
 www.bancassuranceapi.indusind.bank.in
 www.bancassuranceapiuat.indusind.bank.in
 www.bancassuranceuat.indusind.bank.in
-www.bandhan.bank.in
 www.bank.in
 www.bankapp.airtelpayments.bank.in
 www.bankapp.airtelpaymentsuat.bank.in
@@ -10951,7 +10936,6 @@ www.bcmapiuat.indusind.bank.in
 www.bcuat.equitasuat.bank.in
 www.belagavibasaveshwar.bank.in
 www.belagavidccb.bank.in
-www.bellarydcc.bank.in
 www.bepg.kpcb.bank.in
 www.berhampurucb.bank.in
 www.beta.equitasuat.bank.in
@@ -11026,7 +11010,6 @@ www.bsa.hdfc.bank.in
 www.bsa.idbi.bank.in
 www.bsapreprod.hdfcuat.bank.in
 www.bsauat.hdfcuat.bank.in
-www.bsbl.bank.in
 www.bsblmail.bank.in
 www.bscbl.bank.in
 www.bss.indusind.bank.in
@@ -11217,7 +11200,6 @@ www.charteredsahakari.bank.in
 www.chatbotbanking.ujjivansfb.bank.in
 www.chatbotcug-api.indusind.bank.in
 www.checkmail.nkgsb.bank.in
-www.chennaiccb.bank.in
 www.chhaninagrik.bank.in
 www.chiplunurbanbank.bank.in
 www.chittoordccb.bank.in
@@ -12046,7 +12028,6 @@ www.fyn.kotak.bank.in
 www.gajanan.bank.in
 www.ganga.bank.in
 www.gateway.federal.bank.in
-www.gateway.prodnvibl.indusind.bank.in
 www.gautam.bank.in
 www.gayatri.bank.in
 www.gbb.jkb.bank.in
@@ -12056,7 +12037,6 @@ www.gbpayments.idfcfirst.bank.in
 www.gbsultrauat.idfcfirst.bank.in
 www.gcbl.bank.in
 www.gccb.bank.in
-www.gdccbank.bank.in
 www.gdfms.idfcfirst.bank.in
 www.gems.icici.bank.in
 www.getprepaidcard.hdfc.bank.in
@@ -14099,6 +14079,7 @@ www.unapeoples.bank.in
 www.unauthorisedtran.idbi.bank.in
 www.unbox.kotak.bank.in
 www.unclaimdeposit.nainitalbank.bank.in
+www.unionbankofindia.bank.in
 www.unionbankonline.bank.in
 www.unioncoop.bank.in
 www.universal.bank.in
