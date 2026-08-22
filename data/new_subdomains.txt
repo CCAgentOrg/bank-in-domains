@@ -17,10 +17,6 @@
 1hub.kvb.bank.in
 1hub.kvbuat.bank.in
 1hubuat.karurvysya.bank.in
-252525252fwww.axis.bank.in
-2525252fwww.axis.bank.in
-25252fwww.axis.bank.in
-252fwww.axis.bank.in
 2fa.unionbankonline.bank.in
 2fauat.unionbankonline.bank.in
 3.kotak.bank.in
@@ -5665,7 +5661,6 @@ lms.indianbankuat.bank.in
 lms.indusind.bank.in
 lmsdashboard.axis.bank.in
 lmsnhai.axis.bank.in
-lmsprod.jana.bank.in
 lmsuat.axis.bank.in
 lmsuat.bankofbaroda.bank.in
 lnapp1a13202.federal.bank.in
@@ -6711,7 +6706,6 @@ netbanking.adarsh.bank.in
 netbanking.akolajanata.bank.in
 netbanking.ambuja.bank.in
 netbanking.ansb.bank.in
-netbanking.apgb.bank.in
 netbanking.apna.bank.in
 netbanking.au.bank.in
 netbanking.aucbakola.bank.in
@@ -6954,6 +6948,7 @@ nrpcb.bank.in
 nrvideoconnect.kotak.bank.in
 nrvideoconnect.kotakuat.bank.in
 ns.aucbakola.bank.in
+ns1.mandyadcc.bank.in
 ns1.muco.bank.in
 ns1.tripuragramin.bank.in
 ns2.tripuragramin.bank.in
@@ -7228,7 +7223,6 @@ outbound.upiuatv3.axis.bank.in
 outremit.axis.bank.in
 outremittancemto.yes.bank.in
 outremittancemto.yesuat.bank.in
-outsys1.rbl.bank.in
 outwardremitmto.yes.bank.in
 outwardremitmto.yesuat.bank.in
 ovcp.idbi.bank.in
@@ -8349,7 +8343,6 @@ selfeloans-web.equitas.bank.in
 selfeloans-webpp.equitasuat.bank.in
 selfeloans-websit.equitasuat.bank.in
 selfeloans-webuat.equitasuat.bank.in
-selfserve.capital.bank.in
 selfservice.dcb.bank.in
 sentry.dcb.bank.in
 sentry1.dcb.bank.in
@@ -9536,7 +9529,6 @@ uatutkarsh.bank.in
 uatvelocity.axis.bank.in
 uatvideokyc.deutsche.bank.in
 uatvkyc.karnatakagb.bank.in
-uatweb.auuat.bank.in
 uauatcym.bankofindia.bank.in
 uawcmconnect.bankofindia.bank.in
 uayellowconnect.bankofindia.bank.in
@@ -10794,7 +10786,6 @@ www.appsecomni.cboi.bank.in
 www.appsecomniuat.cboi.bank.in
 www.appstackweb.bankofbaroda.bank.in
 www.aprb.bank.in
-www.aprs.bank.in
 www.aps.icici.bank.in
 www.apsuat.icici.bank.in
 www.apswebreports.icici.bank.in
@@ -10866,7 +10857,6 @@ www.banas.bank.in
 www.bancassuranceapi.indusind.bank.in
 www.bancassuranceapiuat.indusind.bank.in
 www.bancassuranceuat.indusind.bank.in
-www.bank.in
 www.bankapp.airtelpayments.bank.in
 www.bankapp.airtelpaymentsuat.bank.in
 www.bankappsit.airtelpaymentsuat.bank.in
@@ -11054,7 +11044,6 @@ www.canarauat.bank.in
 www.canariteslearning.canarabank.bank.in
 www.caoduat.icici.bank.in
 www.capi.hdfc.bank.in
-www.capital.bank.in
 www.capitalsfbuat.bank.in
 www.capiuat.hdfcuat.bank.in
 www.capp-pg.jiopayments.bank.in
@@ -11569,7 +11558,6 @@ www.devos.hdfcuat.bank.in
 www.devport.hdfc.bank.in
 www.devportuat.hdfcuat.bank.in
 www.dhakuriacoop.bank.in
-www.dhan.bank.in
 www.dharati.bank.in
 www.dharmaj.bank.in
 www.dharmapuridccb.bank.in
@@ -14079,7 +14067,6 @@ www.unapeoples.bank.in
 www.unauthorisedtran.idbi.bank.in
 www.unbox.kotak.bank.in
 www.unclaimdeposit.nainitalbank.bank.in
-www.unionbankofindia.bank.in
 www.unionbankonline.bank.in
 www.unioncoop.bank.in
 www.universal.bank.in
