@@ -518,6 +518,7 @@ api.kotak.bank.in
 api.ktkuat.bank.in
 api.lumos.dcb.bank.in
 api.lumos.dcbuat.bank.in
+api.mpgb.bank.in
 api.naviprod.yes.bank.in
 api.onboard.cubuat.bank.in
 api.onlineyono.sbi.bank.in
@@ -1685,6 +1686,8 @@ cc.kotak811.bank.in
 cc.suryoday.bank.in
 cc.uat.kotak811.bank.in
 ccadmin.idbi.bank.in
+ccadmin.unity.bank.in
+ccadmin.unityuat.bank.in
 ccadminapi.idbi.bank.in
 ccaicug.icici.bank.in
 ccaicugws.icici.bank.in
@@ -1704,6 +1707,8 @@ ccbchittor.bank.in
 ccbdausa.bank.in
 ccbguwahati.bank.in
 ccbhisar.in.hisardccb.bank.in
+ccbills.unity.bank.in
+ccbills.unityuat.bank.in
 ccbjaipur.bank.in
 ccbjhalawar.bank.in
 ccbjhunjhunu.bank.in
@@ -2049,6 +2054,7 @@ cmpgov.sbiuat.bank.in
 cmppreprod.sbiuat.bank.in
 cmpsit.kvbuat.bank.in
 cmpuat.kvbuat.bank.in
+cmrevampuat.icici.bank.in
 cmrmsweb.axis.bank.in
 cms-dev-sfb.ujjivansfb.bank.in
 cms-uat-sfb.ujjivansfb.bank.in
@@ -2563,6 +2569,7 @@ cppipuat.axis.bank.in
 cpps.federal.bank.in
 cps.idbi.bank.in
 cpsfvuat.axis.bank.in
+cpts.cloud.federal.bank.in
 cpuatnetweb01.hdfcuat.bank.in
 cr.indusind.bank.in
 crayons.southindianbank.bank.in
@@ -2590,6 +2597,8 @@ creditconnect.axis.bank.in
 creditconnectuat.axis.bank.in
 credithub.equitas.bank.in
 credithubuat.equitasuat.bank.in
+creditline.unity.bank.in
+creditline.unityuat.bank.in
 creditrewardz.yes.bank.in
 credproms.indusind.bank.in
 credpromsuat.indusind.bank.in
@@ -3392,6 +3401,7 @@ dpi-api-uat.business.hsbc.bank.in
 dpi-api.business.hsbc.bank.in
 dpia.canarabank.bank.in
 dpip.canarabank.bank.in
+dpip.kotak811.bank.in
 dpip.pnb.bank.in
 dpip.sibuat.bank.in
 dpip.uat.kotak811.bank.in
@@ -4481,6 +4491,7 @@ greaterbank.bank.in
 green.icici.bank.in
 green.ideal-uat.dbs.bank.in
 green.ideal.dbs.bank.in
+grievance-redressal.cloud.federal.bank.in
 grievances.bankofindia.bank.in
 grimlock.cardshub.indusind.bank.in
 groupcompanies.icici.bank.in
@@ -6600,6 +6611,7 @@ mapi.sib.bank.in
 mapms.hdfc.bank.in
 mapp.mobilityquick1.sbi.bank.in
 maps.icici.bank.in
+marathacooperative.bank.in
 mardiscpp.dwhmartr.sbi.bank.in
 mardiscpr.dwhmartr.sbi.bank.in
 marketing.centralbank.bank.in
@@ -7203,6 +7215,7 @@ netbanking.gayatri.bank.in
 netbanking.gdccbank.bank.in
 netbanking.giftcity.indusind.bank.in
 netbanking.giftcitycib.indusind.bank.in
+netbanking.greaterbank.bank.in
 netbanking.gsmahanagar.bank.in
 netbanking.hasti.bank.in
 netbanking.hdfc.bank.in
@@ -7329,6 +7342,7 @@ ng.ypassist.yes.bank.in
 ng.ypassist.yesuat.bank.in
 ng.yphub.yes.bank.in
 ngib.dhan.bank.in
+ngvam-dev.hsbc.bank.in
 nhai-dashboard-uat.kotakuat.bank.in
 nhai-dashboard.kotak.bank.in
 nhai.indusind.bank.in
@@ -7713,6 +7727,7 @@ outwardremitmto.yesuat.bank.in
 ovcp.idbi.bank.in
 owa.hdfc.bank.in
 owa.icici.bank.in
+owa.kvb.bank.in
 p.p.ypassist.yesuat.bank.in
 p.p.yphub.yesuat.bank.in
 p.rbl.bank.in
@@ -8462,6 +8477,7 @@ retailuat.sbm.bank.in
 retmbs.pnb.bank.in
 retmbs.pnbuat.bank.in
 reward.bankofmaharashtra.bank.in
+rewards.cosmos.bank.in
 rewards.cub.bank.in
 rewards.federal.bank.in
 rewards.icici.bank.in
@@ -8536,6 +8552,7 @@ rmx.deutsche.bank.in
 rnsb.bank.in
 rnsbl.bank.in
 roar.bank.in
+roar.unity.bank.in
 roboadvisory.icici.bank.in
 rohtakdccb.bank.in
 roparccb.bank.in
@@ -9823,6 +9840,7 @@ uat-fi.centralbank.bank.in
 uat-ficer.dbs.bank.in
 uat-icc.centralbank.bank.in
 uat-imbl-dmz.icici.bank.in
+uat-instech.ippbonline.bank.in
 uat-internet-banking.dbs.bank.in
 uat-iserveu.bankofmaharashtra.bank.in
 uat-mobile-banking.dbs.bank.in
@@ -12029,6 +12047,7 @@ www.customerportal.onepune.hdfc.bank.in
 www.cuttackccb.bank.in
 www.cvprod.suryoday.bank.in
 www.cybercrime.darussalam.bank.in
+www.czsb.bank.in
 www.dac.bank.in
 www.dahodurban.bank.in
 www.daivadnya.bank.in
@@ -12279,6 +12298,7 @@ www.docai.icici.bank.in
 www.doorstepbanking.icici.bank.in
 www.downtime.hdfc.bank.in
 www.dpconsent.sbi.bank.in
+www.dpip.kotak811.bank.in
 www.dpip.uat.kotak811.bank.in
 www.dr.finbridge.kotak.bank.in
 www.drbob.bankofbaroda.bank.in
@@ -14380,7 +14400,6 @@ www.santsopankaka.bank.in
 www.sao.hdfc.bank.in
 www.sao.hdfcuat.bank.in
 www.sarangpurbank.bank.in
-www.saraswat.bank.in
 www.sarathiapp.suryoday.bank.in
 www.sardar.bank.in
 www.sarvodaya.bank.in
@@ -14641,11 +14660,9 @@ www.ssbd.bank.in
 www.ssns.bank.in
 www.sso.payzapp.hdfc.bank.in
 www.sso.payzapp.hdfcuat.bank.in
-www.sssbl.bank.in
 www.ssss.bank.in
 www.stage.idfcfirst.bank.in
 www.staging.ccbtonk.bank.in
-www.stambhadri.bank.in
 www.staraccesscvpn.bankofindia.bank.in
 www.staraks.bankofindia.bank.in
 www.starbcp.bankofindia.bank.in
@@ -14671,11 +14688,9 @@ www.stpcorpuat.hdfcuat.bank.in
 www.stpenet.corporate.hdfc.bank.in
 www.subzero.axis.bank.in
 www.sucb.bank.in
-www.sucbl.bank.in
 www.suco.bank.in
 www.sudico.bank.in
 www.sul.bank.in
-www.sumco.bank.in
 www.sundarlalsawji.bank.in
 www.super-uat.kotak811.bank.in
 www.super.kotak811.bank.in
@@ -14689,10 +14704,7 @@ www.surveysms.idbi.bank.in
 www.suryashakti.sbi.bank.in
 www.suryoday.bank.in
 www.susptxn.federal.bank.in
-www.suvarnayug.bank.in
-www.svc.bank.in
 www.svsbl.bank.in
-www.swamivivekanand.bank.in
 www.swayam.hdfc.bank.in
 www.swayam.sbi.bank.in
 www.swift.centralbank.bank.in
@@ -14708,12 +14720,10 @@ www.tabuatnext.icici.bank.in
 www.tagetikwgcrs.icici.bank.in
 www.taicobank.bank.in
 www.tamilnadugrama.bank.in
-www.tamilnadugrama.bank.in.tngb.bank.in
 www.tamilnadugramabank.com.tamilnadugrama.bank.in
 www.tamilnadugramabank.com.tngb.bank.in
 www.tamilnadugramabank.tamilnadugrama.bank.in
 www.tap4lap.hdfc.bank.in
-www.tapindu.bank.in
 www.tarntaranccb.bank.in
 www.tasgaon.bank.in
 www.tatkaltrackinguat.indusind.bank.in
@@ -14818,6 +14828,7 @@ www.uam.hdfc.bank.in
 www.uat-devsecops.idbi.bank.in
 www.uat-fi.centralbank.bank.in
 www.uat-imbl-dmz.icici.bank.in
+www.uat-instech.ippbonline.bank.in
 www.uat-iserveu.bankofmaharashtra.bank.in
 www.uat-new.hdfc.bank.in
 www.uat-ntb.idfcfirst.bank.in
@@ -14863,7 +14874,6 @@ www.uatuotm.icici.bank.in
 www.ucbanks.karnatakaapex.bank.in
 www.ucblrourkela.bank.in
 www.ucbrishikesh.bank.in
-www.uco.bank.in
 www.uddp.hdfcuat.bank.in
 www.udir.auuat.bank.in
 www.udir.bankofbaroda.bank.in
@@ -14930,7 +14940,6 @@ www.upscb.bank.in
 www.urbanbankswm.bank.in
 www.urbancuttack.bank.in
 www.utility.dccbsagar.bank.in
-www.utkarsh.bank.in
 www.utopia-auth.bankofindia.bank.in
 www.utopia-cdn.bankofindia.bank.in
 www.utopia-los.bankofindia.bank.in
@@ -15062,6 +15071,7 @@ www.vvm.sbiuat.bank.in
 www.vvsb.bank.in
 www.vvvmobilebanking.ujjivansfb.bank.in
 www.vyaparik.bank.in
+www.vyavasayik.bank.in
 www.wa.vishweshwar.bank.in
 www.waapi.idbi.bank.in
 www.waba.bankofindia.bank.in
