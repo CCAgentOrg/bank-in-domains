@@ -1138,6 +1138,7 @@ backstage.cubuat.bank.in
 bagalkotedcc.bank.in
 baghat.bank.in
 bahrainnetbanking.hdfc.bank.in
+bailhongalmerchants.bank.in
 bailhongalurbancoop.bank.in
 bajajnpci.upiswitch.axis.bank.in
 balageriaccb.bank.in
@@ -3636,6 +3637,7 @@ emailauth.dcb.bank.in
 emailers.hdfc.bank.in
 emailersut.hdfc.bank.in
 emailersut.hdfcuat.bank.in
+emailserver.palusbank.bank.in
 eman.au.bank.in
 emandate-preprod.cboi.bank.in
 emandate-preprod.centralbank.bank.in
@@ -4826,6 +4828,7 @@ i4c.apna.bank.in
 i4c.ccbrajkot.bank.in
 i4c.dmc.bank.in
 i4c.paliurban.bank.in
+i4c.sindhudurgdcc.bank.in
 i4cuat.tjsb.bank.in
 iam.pnb.bank.in
 iamcryptoweb.icici.bank.in
@@ -6119,6 +6122,7 @@ mail.dcbpilibhit.bank.in
 mail.dcbpithoragarh.bank.in
 mail.dcbpratapgarh.bank.in
 mail.dcbrampur.bank.in
+mail.dcbsaharanpur.bank.in
 mail.dcbshahjahanpur.bank.in
 mail.dcbsiddharthngr.bank.in
 mail.dcbsultanpur.bank.in
@@ -6178,6 +6182,7 @@ mail.etawahdcb.bank.in
 mail.etawahucb.bank.in
 mail.faridabaddccb.bank.in
 mail.fatehabaddccb.bank.in
+mail.federal.bank.in
 mail.federaluat.bank.in
 mail.finco.bank.in
 mail.fino.bank.in
@@ -6526,6 +6531,8 @@ mail.uco.bank.in
 mail.ucoonline.bank.in
 mail.ucouat.bank.in
 mail.udyam.bank.in
+mail.unionbankdigital.bank.in
+mail.unionbankportal.bank.in
 mail.unioncoop.bank.in
 mail.unity.bank.in
 mail.unityuat.bank.in
@@ -7003,6 +7010,7 @@ msme.suryoday.bank.in
 msmedigi.canarabank.bank.in
 msmedigiloans.sbi.bank.in
 msmelow.unionbankofindia.bank.in
+msmnsb.bank.in
 msr.centralbank.bank.in
 msrdr.centralbank.bank.in
 mta-sts.ccb.bank.in
@@ -7181,6 +7189,7 @@ neomerchantdemo.axis.bank.in
 neomerchantuat.axis.bank.in
 neomerchantwebuat.axis.bank.in
 neopay.axis.bank.in
+neoplus.bandhan.bank.in
 neopluscorpsalary.bandhan.bank.in
 neopluscorpsalaryuat.bandhan.bank.in
 neoplusdigitalca.bandhan.bank.in
@@ -7209,6 +7218,7 @@ netbanking.adarsh.bank.in
 netbanking.akolajanata.bank.in
 netbanking.ambuja.bank.in
 netbanking.ansb.bank.in
+netbanking.apgb.bank.in
 netbanking.apna.bank.in
 netbanking.au.bank.in
 netbanking.aucbakola.bank.in
@@ -12123,6 +12133,7 @@ www.dcbpithoragarh.bank.in
 www.dcbpratapgarh.bank.in
 www.dcbrampur.bank.in
 www.dcbremit.bank.in
+www.dcbsaharanpur.bank.in
 www.dcbshahjahanpur.bank.in
 www.dcbsiddharthngr.bank.in
 www.dcbsultanpur.bank.in
@@ -12411,6 +12422,7 @@ www.email.upscb.bank.in
 www.emailers.hdfc.bank.in
 www.emailersut.hdfc.bank.in
 www.emailersut.hdfcuat.bank.in
+www.emailserver.palusbank.bank.in
 www.emandate.akhandanand.bank.in
 www.emandate.amco.bank.in
 www.emandate.aryapuram.bank.in
@@ -12946,6 +12958,7 @@ www.hyderabaddccb.bank.in
 www.i4c.ccbrajkot.bank.in
 www.i4c.dmc.bank.in
 www.i4c.paliurban.bank.in
+www.i4c.sindhudurgdcc.bank.in
 www.iamcryptoweb.icici.bank.in
 www.iamcryptowebcug.icici.bank.in
 www.iamcryptowebuat.icici.bank.in
@@ -14581,9 +14594,6 @@ www.shubhlakshmi.bank.in
 www.shworldpg.hdfcuat.bank.in
 www.sialert.icici.bank.in
 www.siapis.sbi.bank.in
-www.sib.bank.in
-www.sibuat.bank.in
-www.siddagangaurbancoop.bank.in
 www.sihub.hdfc.bank.in
 www.sihub.hdfcuat.bank.in
 www.sim.sbiauthenticator.sbi.bank.in
@@ -14646,19 +14656,15 @@ www.smsdlr.sbi.bank.in
 www.smsdlr.sbiuat.bank.in
 www.smsgateway.icici.bank.in
 www.smsgatewayonlinedlr.icici.bank.in
-www.smsgdg.bank.in
 www.smshandler.cbdc-uat3.idfcfirst.bank.in
-www.smshandler.uat3.offlinecbdc.idfcfirst.bank.in
 www.smvcb.bank.in
 www.snafms.sbi.bank.in
-www.snagarcub.bank.in
 www.sngc.bank.in
 www.snorkeluat203.icici.bank.in
 www.snorkeluat204.icici.bank.in
 www.snsb.bank.in
 www.snsbnanded.bank.in
 www.soco.bank.in
-www.solapurdccb.bank.in
 www.solutions.bankofmaharashtra.bank.in
 www.sonepatdccb.bank.in
 www.soundbox1.cboi.bank.in
@@ -14679,11 +14685,9 @@ www.srimathamahila.bank.in
 www.srisatyasai.bank.in
 www.srisharadamba.bank.in
 www.srisudha.bank.in
-www.srsbankindi.bank.in
 www.srv.tripuragramin.bank.in
 www.srvcportal.indusind.bank.in
 www.ssbbank.bank.in
-www.ssbd.bank.in
 www.ssns.bank.in
 www.sso.payzapp.hdfc.bank.in
 www.sso.payzapp.hdfcuat.bank.in
@@ -14731,7 +14735,6 @@ www.surveysms.idbi.bank.in
 www.suryashakti.sbi.bank.in
 www.suryoday.bank.in
 www.susptxn.federal.bank.in
-www.svc.bank.in
 www.svsbl.bank.in
 www.swayam.hdfc.bank.in
 www.swayam.sbi.bank.in
@@ -14968,7 +14971,6 @@ www.upscb.bank.in
 www.urbanbankswm.bank.in
 www.urbancuttack.bank.in
 www.utility.dccbsagar.bank.in
-www.utkarsh.bank.in
 www.utopia-auth.bankofindia.bank.in
 www.utopia-cdn.bankofindia.bank.in
 www.utopia-los.bankofindia.bank.in
