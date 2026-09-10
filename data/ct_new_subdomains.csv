@@ -1,0 +1,84 @@
+domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
+upiuatamz.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-10T00:00:00,2027-03-27T23:59:59,0ac8c1c3e5b23fdd343e10281e8d49f9,,29325490028
+cdn.nfc.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-09T00:00:00,2027-03-26T23:59:59,03a1388653ca784df0ada27719ca456c,,29317839995
+corpgiftcity.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-09T00:00:00,2027-03-26T23:59:59,012b5d5d872a13e99c3ec380bbb7e489,,29315488865
+csrngo.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,01fbd258ad2bde5cf9e29956c9805aee,,29296952100
+discf.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,0cfbb0aa76e8ac2cbd649d8ec40e6e8b,,29296917853
+dss2.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,080e403a9c6eefd987f8f947b4fb27ee,,29291917054
+dss.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,09e95d1cdb2af09594a20e0ff85c915d,,29291882268
+icm.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,0c1c3b1c32b3175f410d61265784bd4c,,29305931823
+iscf.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,07b4d2245d70ae03f820071538aac117,,29296870004
+lmsdashboard.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,0a5e67d4ef5e2cbc5278bf0a71723392,,29302560200
+neoformerchants.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,0280076db8dc95112dca29028b801253,,29291700197
+secure2c.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-08T00:00:00,2027-03-25T23:59:59,0cd96004d2eebbeeaa0ac4a683fc3ab6,,29291762385
+apibanking.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-07T00:00:00,2027-03-24T23:59:59,0e581e9cf74b23bc7a5b6ab0e7d72ea1,,29293179132
+nfc.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-07T00:00:00,2027-03-24T23:59:59,02ea0d029739917f6f83650b336c58ec,,29292978627
+cardtoken.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-05T00:00:00,2027-03-22T23:59:59,035cf9bf904742451bd8e94bf680682e,,29268886373
+uat.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-05T00:00:00,2027-03-22T23:59:59,0f0b7037c78b8e6d007c23ea470f4bcc,,29268849422
+nfc.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2025-09-19T00:00:00,2026-09-18T23:59:59,0811d2c550e87efc4958ad56a9ec17ca,,29303677623
+apibanking.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2025-09-17T00:00:00,2026-09-16T23:59:59,01dc1218d779a8b32a0dc013cb31b502,,29303892067
+gmb.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-10T00:00:00,2027-03-27T23:59:59,0fee4c874bbe493f464c94877c616d66,,29325388199
+www.gmb.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-10T00:00:00,2027-03-27T23:59:59,0fee4c874bbe493f464c94877c616d66,,29325388199
+sfgmfa.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-10T00:00:00,2027-03-27T23:59:59,0bf2eb2e51e4331180aaccbe32feb306,,29325390004
+www.sfgmfa.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-10T00:00:00,2027-03-27T23:59:59,0bf2eb2e51e4331180aaccbe32feb306,,29325390004
+vcipwhuat.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-10T00:00:00,2027-03-27T23:59:59,02e87bda4ad5b38b80856257cf2ca90a,,29325684043
+www.vcipwhuat.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-10T00:00:00,2027-03-27T23:59:59,02e87bda4ad5b38b80856257cf2ca90a,,29325684043
+ccpm.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0a9f445ce70f74279a34f50a243b28f9,,29288356057
+www.ccpm.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0a9f445ce70f74279a34f50a243b28f9,,29288356057
+cspvisit.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,088bfbfb56e42a80789c2bac1a760983,,29288332997
+www.cspvisit.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,088bfbfb56e42a80789c2bac1a760983,,29288332997
+dbt.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0165233e64d5206d57ea7a2467a1ce69,,29288334533
+www.dbt.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0165233e64d5206d57ea7a2467a1ce69,,29288334533
+dvmerchant.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0a5b2d0431bd7bc657883014dd258c67,,29298972529
+www.dvmerchant.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0a5b2d0431bd7bc657883014dd258c67,,29298972529
+fi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,05f10fef902c96f18a2ebe871c9069b9,,29288334638
+www.fi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,05f10fef902c96f18a2ebe871c9069b9,,29288334638
+kiosk.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0cbbf7e979c1107cdeacc422bf499ca7,,29288332980
+www.kiosk.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0cbbf7e979c1107cdeacc422bf499ca7,,29288332980
+merchant.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0e329ceebfd82a9d55fdc936fbb6ac0f,,29298972242
+www.merchant.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0e329ceebfd82a9d55fdc936fbb6ac0f,,29298972242
+onlinesbi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,06ea6d63f236c850e80945d175260253,,29298972588
+www.onlinesbi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,06ea6d63f236c850e80945d175260253,,29298972588
+prathamfi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,05e4e706fb7edb1c2a61c79a278fdd7b,,29288317632
+www.prathamfi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,05e4e706fb7edb1c2a61c79a278fdd7b,,29288317632
+promo.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0dc9d9bcddef31465e286cc3028a9e1f,,29288992329
+www.promo.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0dc9d9bcddef31465e286cc3028a9e1f,,29288992329
+update.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0c5dc928a41f33d244c52cd68b86f387,,29288993097
+www.update.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-08T00:00:00,2027-03-25T23:59:59,0c5dc928a41f33d244c52cd68b86f387,,29288993097
+apibanking.yb.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,0a30ed9a0ec207d5d3b5151f84b58d12,,29270831435
+www.apibanking.yb.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,0a30ed9a0ec207d5d3b5151f84b58d12,,29270831435
+api.sbiauthenticator.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,07d0d4940be95502b50ef8c553eba072,,29266151430
+www.api.sbiauthenticator.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,07d0d4940be95502b50ef8c553eba072,,29266151430
+mapp.mobilityquick1.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,0ec6dbee574b347b6ca7340dbd4d839e,,29268665104
+www.mapp.mobilityquick1.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,0ec6dbee574b347b6ca7340dbd4d839e,,29268665104
+mobilityretail.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,01b29df42234138226c7f19b3c8fa619,,29287826643
+www.mobilityretail.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,01b29df42234138226c7f19b3c8fa619,,29287826643
+whatsappmobility.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,025777892053ca0d34b60ee33bc4e456,,29266147997
+www.whatsappmobility.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-07T00:00:00,2027-03-24T23:59:59,025777892053ca0d34b60ee33bc4e456,,29266147997
+ccdigitaljourney.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-09T00:00:00,2027-03-26T23:59:59,04bc8fba8edb711633cede1586503afd,,29313277071
+www.ccdigitaljourney.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-09T00:00:00,2027-03-26T23:59:59,04bc8fba8edb711633cede1586503afd,,29313277071
+digitalcuring.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-09T00:00:00,2027-03-26T23:59:59,056f44bf32f4f37b431a7d544d104592,,29313305927
+www.digitalcuring.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-09T00:00:00,2027-03-26T23:59:59,056f44bf32f4f37b431a7d544d104592,,29313305927
+osappsext.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-09T00:00:00,2027-03-26T23:59:59,0a348e0b73e0e886e57469cd8a9cd768,,29314224190
+www.osappsext.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-09T00:00:00,2027-03-26T23:59:59,0a348e0b73e0e886e57469cd8a9cd768,,29314224190
+apply.fastag.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-08T00:00:00,2027-03-25T23:59:59,0e8290a55fa7ad495f879520f5c81370,,29298175749
+www.apply.fastag.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-08T00:00:00,2027-03-25T23:59:59,0e8290a55fa7ad495f879520f5c81370,,29298175749
+wealth.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-08T00:00:00,2027-03-25T23:59:59,0b8cfac184dd89d78ac0d3925d78c44b,,29297994701
+www.wealth.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-08T00:00:00,2027-03-25T23:59:59,0b8cfac184dd89d78ac0d3925d78c44b,,29297994701
+githubdmz.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-07T00:00:00,2027-03-13T23:59:59,04713c067f14a24d837fbff64671a8ae,,29287476567
+www.githubdmz.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-07T00:00:00,2027-03-13T23:59:59,04713c067f14a24d837fbff64671a8ae,,29287476567
+hbtmkprdapp.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-07T00:00:00,2027-03-07T23:59:59,0fe0505902333dcf29047c723f807caf,,29267738449
+www.hbtmkprdapp.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-07T00:00:00,2027-03-07T23:59:59,0fe0505902333dcf29047c723f807caf,,29267738449
+www.xpressforms.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-07T00:00:00,2027-03-24T23:59:59,047c9d2f663012da769e52a60d3be84d,,29288364216
+xpressforms.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-07T00:00:00,2027-03-24T23:59:59,047c9d2f663012da769e52a60d3be84d,,29288364216
+ccdigitaljourney.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-09-26T00:00:00,2026-09-25T23:59:59,01949802c86b8559c06e865860cfacc2,,29325767773
+www.ccdigitaljourney.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-09-26T00:00:00,2026-09-25T23:59:59,01949802c86b8559c06e865860cfacc2,,29325767773
+apply.fastag.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-09-25T00:00:00,2026-09-24T23:59:59,0c1ac7bea5d6b35af3a913d487c3258f,,29309078598
+www.apply.fastag.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-09-25T00:00:00,2026-09-24T23:59:59,0c1ac7bea5d6b35af3a913d487c3258f,,29309078598
+www.xpressforms.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-09-25T00:00:00,2026-09-24T23:59:59,0e993e004aec129ce403b462751ec6f3,,29297606301
+xpressforms.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-09-25T00:00:00,2026-09-24T23:59:59,0e993e004aec129ce403b462751ec6f3,,29297606301
+ypassist.yes.bank.in,Identity,247119,"C=US, O=Amazon, CN=Amazon RSA 2048 M04",2026-09-09T00:00:00,2027-03-25T23:59:59,035cb94cc2ab99f08139dc22e7d82d8b,,29307574721
+yphub.yes.bank.in,Identity,247119,"C=US, O=Amazon, CN=Amazon RSA 2048 M04",2026-09-09T00:00:00,2027-03-25T23:59:59,09c0966c21c0a71136e60202cabd114d,,29307638594
+yesrobot.yes.bank.in,Identity,432915,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 OV TLS CA 2025",2026-09-08T20:16:28,2027-03-26T20:16:28,531da2c36dec16c32c981b4d,,29305653418
+aml.ypassist.yes.bank.in,Identity,246719,"C=US, O=Amazon, CN=Amazon RSA 2048 M01",2026-09-07T00:00:00,2027-03-23T23:59:59,09c80c716aa0656c5d7cb4f0038eede2,,29283875421
+ypmachlogs.ypassist.yes.bank.in,Identity,246719,"C=US, O=Amazon, CN=Amazon RSA 2048 M01",2026-09-07T00:00:00,2027-03-23T23:59:59,076a62f14f165cae00949c0e6307aab2,,29283865049
