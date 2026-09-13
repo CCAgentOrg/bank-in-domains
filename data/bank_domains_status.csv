@@ -10583,6 +10583,8 @@ vaultdr3.southindianbank.bank.in,False,,False,False,,,,
 vbsr.au.bank.in,True,104.18.6.127,True,False,403,,https://vbsr.au.bank.in/,
 vc-digital.sibuat.bank.in,True,103.212.28.183,False,False,0,,,URLError: <urlopen error timed out>
 vcabdelhi.bank.in,False,,False,False,,,,
+vcb-api.smvcb.bank.in,True,168.144.21.94,True,False,404,,https://vcb-api.smvcb.bank.in/,
+vcbadmin.smvcb.bank.in,True,168.144.21.94,True,False,200,Vishweshwaraya Bank Responsive Admin,https://vcbadmin.smvcb.bank.in/,
 vcbl.bank.in,True,101.53.147.233,True,False,200,The Visakhapatnam Co-operative Bank Ltd,https://vcbl.bank.in/,
 vcc.bank.in,False,,False,False,,,,
 vcfduat-content.axis.bank.in,False,,False,False,,,,
