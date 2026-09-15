@@ -1136,6 +1136,7 @@ backoffice.dcouat.idbi.bank.in
 backoffice.onboard.cubuat.bank.in
 backofficeportal.onepune.hdfc.bank.in
 backops-currentaccount.federal.bank.in
+backopscurrentaccount.federal.bank.in
 backstage.cub.bank.in
 backstage.cubuat.bank.in
 bagalkotedcc.bank.in
@@ -3677,6 +3678,7 @@ emandate.hdfc.bank.in
 emandate.hpscb.bank.in
 emandate.hutatma.bank.in
 emandate.idbi.bank.in
+emandate.janakalyan.bank.in
 emandate.karnatakagb.bank.in
 emandate.kgb.bank.in
 emandate.kukarwada.bank.in
@@ -4206,6 +4208,7 @@ fip.bgb.bank.in
 fip.centralbank.bank.in
 fip.hpgb.bank.in
 fip.indusind.bank.in
+fip.mahagramin.bank.in
 fip.manipurrural.bank.in
 fip.pgb.bank.in
 fip.shgb.bank.in
@@ -4551,6 +4554,7 @@ gscneftrtgs.limbasi.bank.in
 gscneftrtgs.limdiurban.bank.in
 gscneftrtgs.lns.bank.in
 gscneftrtgs.lnsb.bank.in
+gscneftrtgs.lpcb.bank.in
 gscneftrtgs.mandal.bank.in
 gscneftrtgs.mccb.bank.in
 gscneftrtgs.mdcc.bank.in
@@ -4564,6 +4568,7 @@ gscneftrtgs.rnsbl.bank.in
 gscneftrtgs.sardar.bank.in
 gscneftrtgs.sarvodaya.bank.in
 gscneftrtgs.saurashtra.bank.in
+gscneftrtgs.savarkundlanagrik.bank.in
 gscneftrtgs.sbmbl.bank.in
 gscneftrtgs.sinornagrik.bank.in
 gscneftrtgs.smcbanand.bank.in
@@ -5387,7 +5392,6 @@ islampururban.bank.in
 ismartdistaapp.icici.bank.in
 ismartdistaappuat.icici.bank.in
 isp.sbi.bank.in
-issmco.bank.in
 isstatement.ujjivansfb.bank.in
 issuervault.icici.bank.in
 issuervaultuat.icici.bank.in
@@ -12509,6 +12513,7 @@ www.emandate.hdfc.bank.in
 www.emandate.hpscb.bank.in
 www.emandate.hutatma.bank.in
 www.emandate.idbi.bank.in
+www.emandate.janakalyan.bank.in
 www.emandate.kukarwada.bank.in
 www.emandate.mcb.bank.in
 www.emandate.mnb.bank.in
@@ -12768,6 +12773,7 @@ www.flexatsup.hdfcuat.bank.in
 www.flexatuat.hdfcuat.bank.in
 www.flywire-hdfc.hdfc.bank.in
 www.flywire-hdfc.hdfcuat.bank.in
+www.fmc.southindianbank.bank.in
 www.fms.indianbank.bank.in
 www.fms.indianbankuat.bank.in
 www.fmsnoc.sbiuat.bank.in
@@ -13573,6 +13579,7 @@ www.los.nns.bank.in
 www.los.wbgb.bank.in
 www.losappservice.icici.bank.in
 www.losappservicedev.icici.bank.in
+www.losfinnone.southindianbank.bank.in
 www.loyaltyrewardsuat.hdfcuat.bank.in
 www.ludhianaccb.bank.in
 www.m-digitalrupee.idfcfirst.bank.in
@@ -13673,6 +13680,7 @@ www.mcb.bank.in
 www.mcbltdtiptur.bank.in
 www.mcc.bank.in
 www.mccb.bank.in
+www.mcdcc.bank.in
 www.mcollect.hdfc.bank.in
 www.mcollect.hdfcuat.bank.in
 www.mcollectapp.hdfc.bank.in
@@ -14052,7 +14060,6 @@ www.odyccy.indusind.bank.in
 www.oemrecom.sbi.bank.in
 www.offers.smartbuy.hdfc.bank.in
 www.offshore.hdfcuat.bank.in
-www.ogb.bank.in
 www.ojas.idbi.bank.in
 www.okyc.indianbank.bank.in
 www.okyc.indianbankuat.bank.in
@@ -14087,6 +14094,7 @@ www.online.hdfcuat.bank.in
 www.online.indianbank.bank.in
 www.online.modelbank.bank.in
 www.online.sber.bank.in
+www.online.southindianbank.bank.in
 www.online.ujjivansfb.bank.in
 www.onlineapply.sbi.bank.in
 www.onlineapply.sbiuat.bank.in
@@ -14671,6 +14679,7 @@ www.sim.sbiauthenticator.sbi.bank.in
 www.simandatehq.iob.bank.in
 www.simplifiedmandate.sewa.bank.in
 www.simplifiedmandatecbs.sewa.bank.in
+www.simyl.api.yonolite.sbi.bank.in
 www.sinch.bankofindia.bank.in
 www.sinchpulluat.bankofindia.bank.in
 www.sinchuat.bankofindia.bank.in
@@ -14719,6 +14728,7 @@ www.smeclouat.hdfcuat.bank.in
 www.smedigiload.hdfcuat.bank.in
 www.smedigital.hdfc.bank.in
 www.smeib.shivalik.bank.in
+www.smelos.southindianbank.bank.in
 www.smerepository.hdfc.bank.in
 www.smriti.bank.in
 www.smsdlr.sbi.bank.in
@@ -14735,6 +14745,7 @@ www.snsb.bank.in
 www.snsbnanded.bank.in
 www.soco.bank.in
 www.solutions.bankofmaharashtra.bank.in
+www.sona.southindianbank.bank.in
 www.sonepatdccb.bank.in
 www.soundbox1.cboi.bank.in
 www.soundbox2.cboi.bank.in
@@ -14979,6 +14990,7 @@ www.uatupicloud.tmbdigital.bank.in
 www.ucbanks.karnatakaapex.bank.in
 www.ucblrourkela.bank.in
 www.ucbrishikesh.bank.in
+www.uco.bank.in
 www.uddp.hdfcuat.bank.in
 www.udir.auuat.bank.in
 www.udir.bankofbaroda.bank.in
