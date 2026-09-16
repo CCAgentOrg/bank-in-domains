@@ -1280,6 +1280,7 @@ bccint.suryoday.bank.in
 bcm.indusind.bank.in
 bcmapi.indusind.bank.in
 bcmapiuat.indusind.bank.in
+bcmf.dcb.bank.in
 bcmf.dcbuat.bank.in
 bcmfpreprod.dcbuat.bank.in
 bcportal.pnbfikiosk.pnb.bank.in
@@ -1365,6 +1366,7 @@ bimasewa.gsc.bank.in
 bimastudio.au.bank.in
 bioattendance.federal.bank.in
 bioauthprod.indusind.bank.in
+biometric.hdfc.bank.in
 bionix-uat.jkb.bank.in
 bionix.jkb.bank.in
 birbhumccb.bank.in
@@ -1388,6 +1390,7 @@ bl.kotak811.bank.in
 black.jkb.bank.in
 blportal.uat.kotak811.bank.in
 bmb.dcb.bank.in
+bmbuat.dcbuat.bank.in
 bmc.bank.in
 bmcb.bank.in
 bmcbcm.indusind.bank.in
@@ -2548,6 +2551,7 @@ cpcontacts.shahubankpune.bank.in
 cpcontacts.sonepatdccb.bank.in
 cpcontacts.srv.tripuragramin.bank.in
 cpcontacts.thanjavurccb.bank.in
+cpcontacts.tnsc.bank.in
 cpcontacts.vdc.bank.in
 cpcontacts.vpmccb.bank.in
 cpcontacts.vps.bgscoop.bank.in
@@ -2605,6 +2609,7 @@ creditcards.federal.bank.in
 creditcards.idbi.bank.in
 creditcards.karurvysya.bank.in
 creditcards.yes.bank.in
+creditcardsinfo.federal.bank.in
 creditcardstatement.idfcfirst.bank.in
 creditcarduat.rbl.bank.in
 creditconnect.axis.bank.in
@@ -4243,6 +4248,7 @@ fiu.bgb.bank.in
 fiu.centralbank.bank.in
 fiu.hpgb.bank.in
 fiu.indusind.bank.in
+fiu.mahagramin.bank.in
 fiu.manipurrural.bank.in
 fiu.pgb.bank.in
 fiu.shgb.bank.in
@@ -4418,6 +4424,7 @@ gemgpa.ipay2corpuat.icici.bank.in
 gems.icici.bank.in
 gemsahay.pnb.bank.in
 gemsahay.pnbuat.bank.in
+generatepdf.yesuat.bank.in
 generic.ipay2corp.icici.bank.in
 generic.ipay2corpuat.icici.bank.in
 genga.bankofindia.bank.in
@@ -5596,6 +5603,7 @@ kblhrmsut.ktkuat.bank.in
 kblone.kbl.bank.in
 kbltradezonecust.kbl.bank.in
 kbltradezonecust.ktkuat.bank.in
+kblut.ktkuat.bank.in
 kbnet.kerala.bank.in
 kbs.idbi.bank.in
 kbsbank.bank.in
@@ -10384,6 +10392,7 @@ v1.hdfc.bank.in
 v2.hdfcuat.bank.in
 v3.hdfcuat.bank.in
 vaach.hdfcuat.bank.in
+vadakaraurban.bank.in
 vadnagarnagarik.bank.in
 vaidyanath.bank.in
 vaijanath.bank.in
@@ -11539,6 +11548,7 @@ www.banas.bank.in
 www.bancassuranceapi.indusind.bank.in
 www.bancassuranceapiuat.indusind.bank.in
 www.bancassuranceuat.indusind.bank.in
+www.bandaurban.bank.in
 www.bandhan.bank.in
 www.bank510.bank.in
 www.bankapp.airtelpayments.bank.in
@@ -11653,6 +11663,7 @@ www.bicholimurban.bank.in
 www.biharscb.bank.in
 www.bilagiurban.bank.in
 www.bioauthprod.indusind.bank.in
+www.biometric.hdfc.bank.in
 www.bionix-uat.jkb.bank.in
 www.bionix.jkb.bank.in
 www.birbhumccb.bank.in
