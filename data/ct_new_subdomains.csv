@@ -1,0 +1,15 @@
+domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
+apswebreports.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-18T00:00:00,2027-04-04T23:59:59,00e41ad4ecb7a98b54adca7b8f9dd4eeb4,,29425577252
+www.apswebreports.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-18T00:00:00,2027-04-04T23:59:59,00e41ad4ecb7a98b54adca7b8f9dd4eeb4,,29425577252
+aseprod2.crm365.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-18T00:00:00,2027-04-04T23:59:59,49407d9f46235115c4cdadeef531b0de,,29425575755
+aseprod4.crm365.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-18T00:00:00,2027-04-04T23:59:59,008a54f3fbc01278b52ca20f535db582d2,,29425576111
+italentsplitca.crm365.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-18T00:00:00,2027-04-04T23:59:59,0086c55ed7414c76036f972534f9201ec7,,29425588588
+money2indianrisr.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-17T00:00:00,2027-04-03T23:59:59,008bcb386ed065010cfdf0ba8c4c9307cf,,29425509657
+www.money2indianrisr.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-17T00:00:00,2027-04-03T23:59:59,008bcb386ed065010cfdf0ba8c4c9307cf,,29425509657
+ibankgal.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-16T00:00:00,2027-04-02T23:59:59,06b45b1be60182e674eefac6c62369be,,29435465039
+learningmatrix.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-15T00:00:00,2027-04-01T23:59:59,00ebe01e85fee67e69e5c4f3646c1727cf,,29435655262
+www.learningmatrix.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-15T00:00:00,2027-04-01T23:59:59,00ebe01e85fee67e69e5c4f3646c1727cf,,29435655262
+learningmatrix.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-15T00:00:00,2027-04-01T23:59:59,00ebe01e85fee67e69e5c4f3646c1727cf,,29435654887
+www.learningmatrix.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-15T00:00:00,2027-04-01T23:59:59,00ebe01e85fee67e69e5c4f3646c1727cf,,29435654887
+apim.portal.pnb.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-16T00:00:00,2027-04-02T23:59:59,02645a2ecde5dd478f6e607544a63625,,29433886570
+pravah.pnb.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-09-16T00:00:00,2027-04-02T23:59:59,0327af0a8ee0e387638a42273a15f41d,,29433932253
