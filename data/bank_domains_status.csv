@@ -7317,6 +7317,7 @@ nachapi.saraswat.bank.in,False,,False,False,,,,
 nachapi.ucouat.bank.in,False,,False,False,,,,
 nachapiprod.nainitalbank.bank.in,False,,False,False,,,,
 nachapiuat.saraswat.bank.in,False,,False,False,,,,
+nachone.axis.bank.in,False,,False,False,,,,
 nachpaypreprod.axis.bank.in,False,,False,False,,,,
 nachpayuat.axis.bank.in,True,103.208.249.69,False,False,0,,,URLError: <urlopen error timed out>
 nachuat.axis.bank.in,True,36.255.29.178,False,False,0,,,URLError: <urlopen error timed out>
