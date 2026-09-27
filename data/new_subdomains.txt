@@ -17,10 +17,6 @@
 1hub.kvb.bank.in
 1hub.kvbuat.bank.in
 1hubuat.karurvysya.bank.in
-252525252fwww.axis.bank.in
-2525252fwww.axis.bank.in
-25252fwww.axis.bank.in
-252fwww.axis.bank.in
 2fa.unionbankonline.bank.in
 2fauat.unionbankonline.bank.in
 3.kotak.bank.in
@@ -142,6 +138,7 @@ acquirerportal.axis.bank.in
 acqweb.icici.bank.in
 acs.bankofindia.bank.in
 acs.jkb.bank.in
+acs.safekey.icici.bank.in
 acs3ds.cub.bank.in
 acs3ds.tmbdigital.bank.in
 acs3ds1.cub.bank.in
@@ -7479,7 +7476,6 @@ netbanking.adarsh.bank.in
 netbanking.akolajanata.bank.in
 netbanking.ambuja.bank.in
 netbanking.ansb.bank.in
-netbanking.apgb.bank.in
 netbanking.apna.bank.in
 netbanking.au.bank.in
 netbanking.aucbakola.bank.in
@@ -7739,9 +7735,11 @@ nrpcb.bank.in
 nrvideoconnect.kotak.bank.in
 nrvideoconnect.kotakuat.bank.in
 ns.aucbakola.bank.in
+ns1.icici.bank.in
 ns1.muco.bank.in
 ns1.slice.bank.in
 ns1.tripuragramin.bank.in
+ns2.icici.bank.in
 ns2.slice.bank.in
 ns2.tripuragramin.bank.in
 ns3.meghalayaruralbank.bank.in
@@ -8410,6 +8408,7 @@ prd.bgb.bank.in
 pre-prod-api-sfb.ujjivansfb.bank.in
 pre-prod-cms-sfb.ujjivansfb.bank.in
 pre-prod-sfb.ujjivansfb.bank.in
+pre-prod1.homeloanxpress.hdfcuat.bank.in
 prepaid-cards.axis.bank.in
 prepaid-customer.axis.bank.in
 prepaid.canarabank.bank.in
@@ -9164,12 +9163,15 @@ securehdfcuat-acs2ui-b1-indblr-blrrel.hdfcuat.bank.in
 securehdfcuat-acs2ui-b1-indmum-mumsif.hdfcuat.bank.in
 secureicici-3dsmethod.icici.bank.in
 secureicici-cr1.icici.bank.in
+secureicici-mc-ar1.icici.bank.in
 secureicici-mpayon.icici.bank.in
 secureicici-onus-ar1.icici.bank.in
 secureicici-payon.icici.bank.in
 secureicici-paysecure.icici.bank.in
+secureicici-rc-ar1.icici.bank.in
 secureicici-sandbox-cr1.icici.bank.in
 secureicici-sandbox.icici.bank.in
+secureicici-vc-ar1.icici.bank.in
 secureinbox.gtb.deutsche.bank.in
 secureonline.idbi.bank.in
 securepaymentstest.hdfcuat.bank.in
@@ -10174,6 +10176,7 @@ uam.hdfc.bank.in
 uambconnect.bankofindia.bank.in
 uasitcym.bankofindia.bank.in
 uat-airflow.cherry.kotakuat.bank.in
+uat-api-homeloanxpress.hdfcuat.bank.in
 uat-api.dbs.bank.in
 uat-consumers-api.dbs.bank.in
 uat-dbilcreditcards.dbs.bank.in
@@ -10185,6 +10188,7 @@ uat-entauth.idfcfirst.bank.in
 uat-etendering.axis.bank.in
 uat-fi.centralbank.bank.in
 uat-ficer.dbs.bank.in
+uat-homeloanxpress.hdfcuat.bank.in
 uat-icc.centralbank.bank.in
 uat-imbl-dmz.icici.bank.in
 uat-instech.ippbonline.bank.in
@@ -10205,6 +10209,7 @@ uat-retail.sc.bank.in
 uat-sfb.ujjivansfb.bank.in
 uat-slice.bank.in
 uat-tradecreditquote.axis.bank.in
+uat-web-homeloanxpress.hdfcuat.bank.in
 uat.aacampaign.kotakuat.bank.in
 uat.abhinandan.bank.in
 uat.ajms.bank.in
@@ -10424,7 +10429,6 @@ uatutkarsh.bank.in
 uatvelocity.axis.bank.in
 uatvideokyc.deutsche.bank.in
 uatvkyc.karnatakagb.bank.in
-uatweb.auuat.bank.in
 uatwhatsapp.icici.bank.in
 uauatcym.bankofindia.bank.in
 uawcmconnect.bankofindia.bank.in
@@ -11620,6 +11624,7 @@ www.apcob.bank.in
 www.apexbankmp.bank.in
 www.apexd.bankofmaharashtra.bank.in
 www.apgb.bank.apgb.bank.in
+www.apgb.bank.in
 www.apgb.in.apgb.bank.in
 www.api-icici.icici.bank.in
 www.api-nb-nextgen-perf.hdfcuat.bank.in
@@ -11828,7 +11833,6 @@ www.bancassuranceapiuat.indusind.bank.in
 www.bancassuranceuat.indusind.bank.in
 www.bandaurban.bank.in
 www.bandhan.bank.in
-www.bank.in
 www.bank510.bank.in
 www.bankapp.airtelpayments.bank.in
 www.bankapp.airtelpaymentsuat.bank.in
@@ -13766,6 +13770,7 @@ www.kkrucb.bank.in
 www.kmblwidgets.dkyc.kotak.bank.in
 www.kmns.bank.in
 www.kms.bank.in
+www.kns.bank.in
 www.knsb.bank.in
 www.knsbl.bank.in
 www.kodagudccbank.kodagudccbank.bank.in
@@ -14585,6 +14590,7 @@ www.prathamsme.sbi.bank.in
 www.prathamsme.sbiuat.bank.in
 www.pravara.bank.in
 www.prd.bgb.bank.in
+www.pre-prod1.homeloanxpress.hdfcuat.bank.in
 www.prepaid.karurvysya.bank.in
 www.prepaid.kotak.bank.in
 www.prepaid.sbi.bank.in
@@ -15245,8 +15251,10 @@ www.tvcbltd.bank.in
 www.tvmalaidccb.bank.in
 www.uaapibkg.bankofindia.bank.in
 www.uam.hdfc.bank.in
+www.uat-api-homeloanxpress.hdfcuat.bank.in
 www.uat-devsecops.idbi.bank.in
 www.uat-fi.centralbank.bank.in
+www.uat-homeloanxpress.hdfcuat.bank.in
 www.uat-imbl-dmz.icici.bank.in
 www.uat-instech.ippbonline.bank.in
 www.uat-iserveu.bankofmaharashtra.bank.in
@@ -15255,6 +15263,7 @@ www.uat-ntb.idfcfirst.bank.in
 www.uat-onprem-dmz-hybrid.icici.bank.in
 www.uat-opt.idfcfirst.bank.in
 www.uat-payu.nsdlpayments.bank.in
+www.uat-web-homeloanxpress.hdfcuat.bank.in
 www.uat.aacampaign.kotakuat.bank.in
 www.uat.bbpsadmin.southindianbank.bank.in
 www.uat.crh.sbi.bank.in
@@ -15297,6 +15306,7 @@ www.uatwhatsapp.icici.bank.in
 www.ucbanks.karnatakaapex.bank.in
 www.ucblrourkela.bank.in
 www.ucbrishikesh.bank.in
+www.uco.bank.in
 www.uddp.hdfcuat.bank.in
 www.udir.auuat.bank.in
 www.udir.bankofbaroda.bank.in
