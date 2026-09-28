@@ -3350,6 +3350,8 @@ digivl.pnb.bank.in
 digivl.pnbuat.bank.in
 digixcro-ext-uat.idfcfirst.bank.in
 digixcro-ext.idfcfirst.bank.in
+digiyuvakaushal.pnb.bank.in
+digiyuvakaushal.pnbuat.bank.in
 diksha.ujjivansfb.bank.in
 dil.bankofbaroda.bank.in
 dil2.bankofbaroda.bank.in
@@ -4064,6 +4066,7 @@ fabeaccess.bankfab.bank.in
 faconnect.kotak.bank.in
 faconnectuat.kotak.bank.in
 faconnectuat.kotakuat.bank.in
+factoringapi.emiratesnbd.bank.in
 faida.suryoday.bank.in
 faidaexternal.suryoday.bank.in
 faidainternal.suryoday.bank.in
@@ -6617,9 +6620,11 @@ mail.rajasthan.bank.in
 mail.rajputana.bank.in
 mail.ramanathapuramdccb.bank.in
 mail.ramrajya.bank.in
+mail.rbl.bank.in
 mail.rcms.bank.in
 mail.report.mrb.bank.in
 mail.rewaridccb.bank.in
+mail.roar.bank.in
 mail.rohtakdccb.bank.in
 mail.rpb.bank.in
 mail.rsgs.bank.in
@@ -6719,6 +6724,7 @@ mail.thiruvalluvartcb.bank.in
 mail.thodupuzhaurbanbank.bank.in
 mail.thoothukudidccb.bank.in
 mail.tmb.bank.in
+mail.tmbonline.bank.in
 mail.tnsbl.bank.in
 mail.trichydccb.bank.in
 mail.tripuragramin.bank.in
@@ -6735,6 +6741,7 @@ mail.ucoonline.bank.in
 mail.ucouat.bank.in
 mail.udyam.bank.in
 mail.unionbankdigital.bank.in
+mail.unionbankofindia.bank.in
 mail.unionbankportal.bank.in
 mail.unioncoop.bank.in
 mail.unity.bank.in
@@ -6796,6 +6803,7 @@ mail.yamunanagardccb.bank.in
 mail.yavatmaldcc.bank.in
 mail.yavatmalurban.bank.in
 mail.yes.bank.in
+mail.youth.bank.in
 mail.zopay.mrb.bank.in
 mail.zsbbly.bank.in
 mail.zsbjhansi.bank.in
@@ -9138,6 +9146,7 @@ sdccbsng.bank.in
 sddfiduciary.idbi.bank.in
 sdkmba.karnatakagb.bank.in
 sdkmba.kgb.bank.in
+sdp.airtelpayments.bank.in
 sec.yes.bank.in
 sec1.yes.bank.in
 secportal.federal.bank.in
@@ -10508,6 +10517,7 @@ universeleaderspeakuat.icici.bank.in
 universeonthemove.icici.bank.in
 unnatiwrapper.axis.bank.in
 unsb.bank.in
+unsbujn.bank.in
 unsub.alerts.federal.bank.in
 uob.bank.in
 uotmnewuat.icici.bank.in
@@ -11320,6 +11330,7 @@ webmail.tnsbl.bank.in
 webmail.tupc.bank.in
 webmail.ucbrishikesh.bank.in
 webmail.unioncoop.bank.in
+webmail.urbanbanktaliparamba.bank.in
 webmail.vadnagarnagarik.bank.in
 webmail.vdc.bank.in
 webmail.vikas.bank.in
@@ -11624,7 +11635,6 @@ www.apcob.bank.in
 www.apexbankmp.bank.in
 www.apexd.bankofmaharashtra.bank.in
 www.apgb.bank.apgb.bank.in
-www.apgb.bank.in
 www.apgb.in.apgb.bank.in
 www.api-icici.icici.bank.in
 www.api-nb-nextgen-perf.hdfcuat.bank.in
@@ -13592,8 +13602,6 @@ www.invapps.kotak.bank.in
 www.invappsdr.kotak.bank.in
 www.invappsuat.kotakuat.bank.in
 www.investments.icici.bank.in
-www.investors.ca.karurvysya.bank.in
-www.investors.ca.karurvysyauat.bank.in
 www.inwardrem.icici.bank.in
 www.iob.bank.in
 www.ipc.bank.in
@@ -13602,7 +13610,6 @@ www.ipg.icici.bank.in
 www.ipmstestserver.idbi.bank.in
 www.ipmsvendorportal.idbi.bank.in
 www.ipouat.equitasuat.bank.in
-www.ippbonline.bank.in
 www.ippopay.tmbdigital.bank.in
 www.ipro.idbi.bank.in
 www.ipsb.bank.in
@@ -13636,11 +13643,8 @@ www.iworkorder.hdfc.bank.in
 www.iworkuat.icici.bank.in
 www.jagruticoop.bank.in
 www.jainbank.bank.in
-www.jainsahakari.bank.in
 www.jalandharccb.bank.in
-www.jalnadcc.bank.in
 www.jalore.bank.in
-www.jaloreccb.bank.in
 www.jamfpro.icici.bank.in
 www.jamiacoop.bank.in
 www.jamkhandiurban.bank.in
@@ -13652,7 +13656,6 @@ www.janakalyan.bank.in
 www.janalaxmi.bank.in
 www.janasevabankpune.bank.in
 www.janasevaborivali.bank.in
-www.janatabanksadalga.bank.in
 www.janatadelhi.bank.in
 www.janatahalol.bank.in
 www.jankalyancoop.bank.in
@@ -13661,8 +13664,6 @@ www.jccbjhajjar.org.in.jhajjardccb.bank.in
 www.jccbjhajjjar.org.in.jhajjardccb.bank.in
 www.jcom.bank.in
 www.jcubl.bank.in
-www.jdcbl.bank.in
-www.jdcc.bank.in
 www.jgb.bank.in
 www.jiffy.nsdlpayments.bank.in
 www.jiffybiz.nsdlpayments.bank.in
@@ -13770,7 +13771,6 @@ www.kkrucb.bank.in
 www.kmblwidgets.dkyc.kotak.bank.in
 www.kmns.bank.in
 www.kms.bank.in
-www.kns.bank.in
 www.knsb.bank.in
 www.knsbl.bank.in
 www.kodagudccbank.kodagudccbank.bank.in
@@ -15306,7 +15306,6 @@ www.uatwhatsapp.icici.bank.in
 www.ucbanks.karnatakaapex.bank.in
 www.ucblrourkela.bank.in
 www.ucbrishikesh.bank.in
-www.uco.bank.in
 www.uddp.hdfcuat.bank.in
 www.udir.auuat.bank.in
 www.udir.bankofbaroda.bank.in
@@ -15573,6 +15572,7 @@ www.webmail.nmcbnk.bank.in
 www.webmail.nns.bank.in
 www.webmail.parshwanath.bank.in
 www.webmail.rewaridccb.bank.in
+www.webmail.urbanbanktaliparamba.bank.in
 www.webrtcuat.idbi.bank.in
 www.websdk.onecard.southindianbank.bank.in
 www.website.agvbuat.bank.in
