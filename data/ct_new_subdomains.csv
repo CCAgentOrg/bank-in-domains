@@ -1,0 +1,22 @@
+domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
+insightmosuat.axis.bank.in,Identity,185752,"C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",2026-09-25T00:00:00,2027-04-11T23:59:59,0dac82e58a3005e36f7e7fe023be07b5,,29579403122
+fsi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-25T00:00:00,2027-04-11T23:59:59,06e13b33071a7bcad9021cce05ec8fd8,,29578351809
+www.fsi.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-09-25T00:00:00,2027-04-11T23:59:59,06e13b33071a7bcad9021cce05ec8fd8,,29578351809
+osappsext.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-25T00:00:00,2027-03-16T23:59:59,092d08052a5c2a22b93ec31c4afd2504,,29580739061
+www.osappsext.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-25T00:00:00,2027-03-16T23:59:59,092d08052a5c2a22b93ec31c4afd2504,,29580739061
+uatuotm.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-30T00:00:00,2027-04-16T23:59:59,09f3e76488e8d8b22f66cd3b9198dce1,,29578312560
+infiniyty.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-28T00:00:00,2027-04-14T23:59:59,26b55781f280672dffb90a46edcb3869,,29578243457
+www.infiniyty.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-28T00:00:00,2027-04-14T23:59:59,26b55781f280672dffb90a46edcb3869,,29578243457
+merchantacquiring.upiswitch.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-01T00:00:00,2027-04-17T23:59:59,45b53bea4c957f6a453cf5ae1eef713d,,29578342889
+merchantdashboard.upiswitch.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-01T00:00:00,2027-04-17T23:59:59,45b53bea4c957f6a453cf5ae1eef713d,,29578342889
+upiswitch.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-01T00:00:00,2027-04-17T23:59:59,45b53bea4c957f6a453cf5ae1eef713d,,29578342889
+api.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-30T00:00:00,2027-04-16T23:59:59,00a652687a5574ada4883c07ccfad63efe,,29578328834
+www.api.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-30T00:00:00,2027-04-16T23:59:59,00a652687a5574ada4883c07ccfad63efe,,29578328834
+portal.corporatecard.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-29T00:00:00,2027-04-15T23:59:59,00aa296292b91fafad3d5382fbaa45f5b5,,29578403317
+www.portal.corporatecard.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-29T00:00:00,2027-04-15T23:59:59,00aa296292b91fafad3d5382fbaa45f5b5,,29578403317
+ocm.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-01T00:00:00,2027-04-17T23:59:59,1e612d233e0117ff4ab1492a2ef6d75b,,29579824677
+www.ocm.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-01T00:00:00,2027-04-17T23:59:59,1e612d233e0117ff4ab1492a2ef6d75b,,29579824677
+credpronetvendor.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-29T00:00:00,2027-04-15T23:59:59,00e5561e63a4e4fef055805e8104a0e82d,,29578398098
+fedmobuat.federal.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-09-25T00:00:00,2027-03-18T23:59:59,0ab1cba08e0d02b380fd5fc33fa2d360,,29578183791
+tmb.bank.in,Identity,432473,"C=US, O=GoDaddy.com, CN=GoDaddy TLS Intermediate CA DV - R1v1",2026-09-26T13:48:54,2027-04-12T13:48:54,0ad4ded545aea936,,29581398377
+tmb.bank.in,Identity,432473,"C=US, O=GoDaddy.com, CN=GoDaddy TLS Intermediate CA DV - R1v1",2026-09-26T13:48:54,2027-04-12T13:48:54,0ad4ded545aea936,,29581398228
