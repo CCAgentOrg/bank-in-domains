@@ -7894,6 +7894,7 @@ nrpcb.bank.in,True,13.126.74.151,True,False,200,Welcome to NRPC Bank,https://nrp
 nrvideoconnect.kotak.bank.in,False,,False,False,,,,
 nrvideoconnect.kotakuat.bank.in,False,,False,False,,,,
 ns.aucbakola.bank.in,False,,False,False,,,,
+ns1.deutsche.bank.in,True,160.83.56.161,False,False,0,,,URLError: <urlopen error [Errno 101] Network is unreachable>
 ns1.icici.bank.in,False,,False,False,,,,
 ns1.mandyadcc.bank.in,True,66.116.207.187,True,False,200,"MANDYA DCC BANK, DCC Bank Mandya, Co - Operative Bank Mandya, Mandya Distirct Bank, Baning in Mandya, Mandya DCC BANK,",https://ns1.mandyadcc.bank.in/,
 ns1.muco.bank.in,False,,False,False,,,,
@@ -8565,6 +8566,7 @@ pragatiapi.indusind.bank.in,False,,False,False,,,,
 pragatimahilabhilai.bank.in,False,,False,False,,,,
 praj.centralbank.bank.in,False,,False,False,,,,
 prakasamdccb.bank.in,False,,False,False,,,,
+prakascub.bank.in,False,,False,False,,,,
 pratapbank.bank.in,False,,False,False,,,,
 pratham-mobile.sbi.bank.in,True,103.209.97.21,False,False,0,,,URLError: <urlopen error [Errno 111] Connection refused>
 pratham-mobile.sbiuat.bank.in,True,45.121.44.55,False,False,0,,,URLError: <urlopen error timed out>
