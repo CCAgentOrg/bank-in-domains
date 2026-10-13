@@ -1,3 +1,0 @@
-domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
-digifarmstay.pnb.bank.in,Identity,432939,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",2026-10-03T06:51:28,2027-04-20T06:51:28,4603fbf9da43c641ea4dca7f,,29750500974
-digikisanvaahan.pnb.bank.in,Identity,432939,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",2026-10-03T06:51:21,2027-04-20T06:51:21,28f95d489e45d8cc9b267fbf,,29750497989
