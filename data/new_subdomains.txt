@@ -132,7 +132,6 @@ acquirerportal.axis.bank.in
 acqweb.icici.bank.in
 acs.bankofindia.bank.in
 acs.jkb.bank.in
-acs.safekey.icici.bank.in
 acs3ds.cub.bank.in
 acs3ds.tmbdigital.bank.in
 acs3ds1.cub.bank.in
@@ -325,7 +324,6 @@ agwnimbleiluat.ujjivansfb.bank.in
 ahlpro.federal.bank.in
 ahluat.federal.bank.in
 ai.au.bank.in
-ai1r.canarabank.bank.in
 airflow.cherry.kotak.bank.in
 airflow.cherry.kotakuat.bank.in
 airtel.bank.in
@@ -486,7 +484,6 @@ api.airtelpayments.bank.in
 api.amazonpay.rbl.bank.in
 api.au.bank.in
 api.automationtest-gallop.idfcfirst.bank.in
-api.axis.bank.in
 api.baas.deutsche.bank.in
 api.bhagyodaya.bank.in
 api.boilmsuat.bankofindia.bank.in
@@ -522,6 +519,7 @@ api.icici.bank.in
 api.idbi.bank.in
 api.indusind.bank.in
 api.interact.idfcfirst.bank.in
+api.internal.bank.in
 api.ipb.deutsche.bank.in
 api.jpupi.rbl.bank.in
 api.karurvysya.bank.in
@@ -549,7 +547,6 @@ api.sbiauthenticator.sbi.bank.in
 api.sbiauthenticator.sbiuat.bank.in
 api.sbx.baas.deutsche.bank.in
 api.sc.bank.in
-api.slice.bank.in
 api.southindianbank.bank.in
 api.stp.yonobusinessmobile.sbiuat.bank.in
 api.tachyon.hdfc.bank.in
@@ -676,7 +673,9 @@ apm.cherry.kotakuat.bank.in
 apm.southindianbank.bank.in
 apmahesh.bank.in
 apmrum.dcb.bank.in
+apmtraces.centralbank.bank.in
 apmuat.canarabank.bank.in
+apmuattraces.centralbank.bank.in
 apn.rbl.bank.in
 apollo-content.axis.bank.in
 apollo.api.axis.bank.in
@@ -856,7 +855,6 @@ asset.hdfc.bank.in
 assetexpo.indianbank.bank.in
 assets.au.bank.in
 assets.icici.bank.in
-assets.slice.bank.in
 assist.airtelpayments.bank.in
 assist.unionbankofindia.bank.in
 assisted.nsdlpayments.bank.in
@@ -920,7 +918,6 @@ auremit-inward.au.bank.in
 auremit.au.bank.in
 aurewardz.au.bank.in
 ausewadwaar.au.bank.in
-ausmallfinance.bank.in
 auth-api.corenxda.kotak.bank.in
 auth-api.corenxda.kotakuat.bank.in
 auth-dco.idbi.bank.in
@@ -1436,7 +1433,6 @@ birrprod.axis.bank.in
 birrprodapi.axis.bank.in
 bitbucket.yes.bank.in
 bitool.centralbank.bank.in
-bizaccess.ujjivansfb.bank.in
 bizapn.rbl.bank.in
 bizapp.unionbankofindia.bank.in
 bizpartners.idfcfirst.bank.in
@@ -1625,7 +1621,6 @@ campaignweb.yes.bank.in
 campaignweb.yesuat.bank.in
 camunda.suryoday.bank.in
 canai.arvr.canarabank.bank.in
-canara.bank.in
 canarabank.bank.in
 canarabankdigi.canarabank.bank.in
 canarafscm.canarauat.bank.in
@@ -1634,7 +1629,6 @@ canarites.canarabank.bank.in
 canariteslearning.canarabank.bank.in
 canbms.canarabank.bank.in
 cancontact.canarabank.bank.in
-candigital.canarabank.bank.in
 canfeedback.canarabank.bank.in
 canfxib.canara.bank.in
 canfxib.canarabank.bank.in
@@ -2078,6 +2072,7 @@ cityunionbank.bank.in
 cityunionbank.cubuat.bank.in
 ckyc-application.axis.bank.in
 ckyc-dr.kotak.bank.in
+ckyc.auuat.bank.in
 ckyc.bgb.bank.in
 ckyc.hgb.bank.in
 ckyc.hpgb.bank.in
@@ -2365,7 +2360,6 @@ corporate.axis.bank.in
 corporate.bandhan.bank.in
 corporate.ctbcbank.bank.in
 corporate.hdfc.bank.in
-corporate.hdfcuat.bank.in
 corporate.uat-slice.bank.in
 corporate.yes.bank.in
 corporate360view.icici.bank.in
@@ -2780,7 +2774,6 @@ crm.santsopankaka.bank.in
 crm.tgb.bank.in
 crm.vmcbl.bank.in
 crm.waranabank.bank.in
-crm365.icici.bank.in
 crmapi.kgb.bank.in
 crmcpgrs.canarabank.bank.in
 crmcxoic.federal.bank.in
@@ -2842,7 +2835,6 @@ ctsice.au.bank.in
 ctsncrext.idfcfirst.bank.in
 ctstab.icici.bank.in
 cub-admin.mandate.cub.bank.in
-cub.bank.in
 cub.mandate.cub.bank.in
 cubaa.cub.bank.in
 cubaeps.cub.bank.in
@@ -2883,7 +2875,6 @@ cugrn.yonolite.sbi.bank.in
 cumbum.bank.in
 currentaccount.federal.bank.in
 custcare.jkb.bank.in
-custcom.yes.bank.in
 custcomm.equitas.bank.in
 custcomm.icici.bank.in
 custcommuat.equitasuat.bank.in
@@ -3005,7 +2996,6 @@ dcbayodhya.bank.in
 dcbbahraich.bank.in
 dcbballia.bank.in
 dcbbanda.bank.in
-dcbbank.bank.in
 dcbbijnor.bank.in
 dcbbudaun.bank.in
 dcbdehradun.bank.in
@@ -3583,7 +3573,6 @@ docsigner.dcbuat.bank.in
 docsignerleegality.dcb.bank.in
 docv1.insurance-qa.idfcfirst.bank.in
 docv1qa.insurance.idfcfirst.bank.in
-dohabank.bank.in
 doku.stg.ecomm.deutsche.bank.in
 doorstepbanking.icici.bank.in
 downtime.hdfc.bank.in
@@ -3638,7 +3627,6 @@ ducobank.bank.in
 dungarpurccb.bank.in
 dvfsfb.au.bank.in
 dvmerchant.sbi.bank.in
-dwhmartr.sbi.bank.in
 dym.karurvysya.bank.in
 dym.kvbuat.bank.in
 dynatrace.icici.bank.in
@@ -3860,6 +3848,7 @@ emandate-uat.centralbank.bank.in
 emandate.akhandanand.bank.in
 emandate.amco.bank.in
 emandate.aryapuram.bank.in
+emandate.associate.bank.in
 emandate.au.bank.in
 emandate.auuat.bank.in
 emandate.axis.bank.in
@@ -4063,7 +4052,6 @@ equiremit.equitas.bank.in
 equitas-rbih-uli-uat.equitasuat.bank.in
 equitas-rbih-uliprod.equitas.bank.in
 equitas.bank.in
-equitasuat.bank.in
 erecb.bank.in
 erekyc.shahu.bank.in
 erodedccb.bank.in
@@ -4954,7 +4942,6 @@ hdfc-api-adaptor.vkyc.hdfc.bank.in
 hdfc-api-adaptor.vkyc.hdfcuat.bank.in
 hdfc.bank.in
 hdfcapi.bnsbbala.bank.in
-hdfcbank.bank.in
 hdfcbankpayments.hdfc.bank.in
 hdfcbankpaymentspreprod.hdfcuat.bank.in
 hdfcbankpaymentspreprod1.hdfcuat.bank.in
@@ -5920,7 +5907,6 @@ karamanaurban.bank.in
 karcoop.bank.in
 karimnagardccb.bank.in
 karnaldccb.bank.in
-karnataka.bank.in
 karnatakaapex.bank.in
 karnatakaapex.com.karnatakaapex.bank.in
 karnatakabank.bank.in
@@ -5928,19 +5914,16 @@ karnatakagb.bank.in
 karnavati.bank.in
 karunagappallyucb.bank.in
 karurvysya.bank.in
-karurvysyabank.bank.in
 karurvysyauat.bank.in
 kasaragodtown.bank.in
 kaushal.centralbank.bank.in
 kaveripattinamtown.bank.in
-kbl.bank.in
 kblboss.ktk.bank.in
 kblcts.ktkuat.bank.in
 kblhrmsut.ktkuat.bank.in
 kblone.kbl.bank.in
 kbltradezonecust.kbl.bank.in
 kbltradezonecust.ktkuat.bank.in
-kblut.ktkuat.bank.in
 kbnet.kerala.bank.in
 kbs.idbi.bank.in
 kbsbank.bank.in
@@ -6060,7 +6043,6 @@ ksf.unity.bank.in
 ktc.bank.in
 ktcb.bank.in
 ktccb.bank.in
-ktk.bank.in
 ktkuat.bank.in
 ktr.hgb.bank.in
 ktr.shgb.bank.in
@@ -6194,7 +6176,6 @@ lms.deutsche.bank.in
 lms.indianbank.bank.in
 lms.indianbankuat.bank.in
 lms.indusind.bank.in
-lms.ippbonline.bank.in
 lms.pgb.bank.in
 lmsdashboard.axis.bank.in
 lmsnhai.axis.bank.in
@@ -7445,7 +7426,6 @@ mucbl.bank.in
 muco.bank.in
 mudalagi.bank.in
 mudgal.bank.in
-mufg.bank.in
 mugberiaccb.bank.in
 muktsarccb.bank.in
 mula.bank.in
@@ -7566,7 +7546,6 @@ nb-nextgen-sit.hdfcuat.bank.in
 nb-nextgen-sit2.hdfcuat.bank.in
 nb-nextgen-uat.hdfcuat.bank.in
 nb-nextgen-uat2.hdfcuat.bank.in
-nb.slice.bank.in
 nb3dev.kotakuat.bank.in
 nb3uat.kotakuat.bank.in
 nbbl.axis.bank.in
@@ -7579,6 +7558,7 @@ nbpguat.axis.bank.in
 nbuat.kotakuat.bank.in
 nccbank.bank.in
 ncrp.gooty.bank.in
+ncrp.imcb.bank.in
 ncrp.karnatakagb.bank.in
 ncrp.kcbl.bank.in
 ncrp.odishascb.bank.in
@@ -7956,30 +7936,21 @@ nrivideochat.canarabank.bank.in
 nrpcb.bank.in
 nrvideoconnect.kotak.bank.in
 nrvideoconnect.kotakuat.bank.in
-ns-1206.canarauat.bank.in
 ns.aucbakola.bank.in
-ns1.axis.bank.in
 ns1.cdcc.bank.in
-ns1.deutsche.bank.in
-ns1.icici.bank.in
 ns1.ilkal.bank.in
+ns1.indusind.bank.in
 ns1.jivan.bank.in
 ns1.muco.bank.in
 ns1.pioneer.bank.in
-ns1.slice.bank.in
 ns1.tripuragramin.bank.in
 ns1.urbanbankshikaripur.bank.in
-ns2.ca-cib.bank.in
 ns2.cdcc.bank.in
-ns2.icici.bank.in
 ns2.ilkal.bank.in
-ns2.indusind.bank.in
 ns2.jivan.bank.in
 ns2.pioneer.bank.in
-ns2.slice.bank.in
 ns2.tripuragramin.bank.in
 ns2.urbanbankshikaripur.bank.in
-ns3.hdfcuat.bank.in
 ns3.meghalayaruralbank.bank.in
 ns5.pnbuat.bank.in
 ns6.pnbuat.bank.in
@@ -8218,7 +8189,6 @@ onlinetest.kccbhp.bank.in
 onlinetnsc.tnsc.bank.in
 onlineuat.cubuat.bank.in
 onlineuat.indianbankuat.bank.in
-onlineuat.sibuat.bank.in
 onlineuat.ujjivansfb.bank.in
 onprm.hdfc.bank.in
 open-banking.airtelpayments.bank.in
@@ -8404,6 +8374,7 @@ payuprodaws.axis.bank.in
 payuuataws.axis.bank.in
 payuupiuatnpci.axis.bank.in
 payyoliurbanbank.bank.in
+payzapp.hdfc.bank.in
 payzappbcp.hdfc.bank.in
 payzappbcp.hdfcuat.bank.in
 pbgcob.icici.bank.in
@@ -8940,7 +8911,6 @@ rbicommunicationportal.icici.bank.in
 rbih-uli-uat.equitasuat.bank.in
 rbih-uli.equitas.bank.in
 rbl.bank.in
-rblbank.bank.in
 rblmfi.rbl.bank.in
 rblremit.rbl.bank.in
 rblrewards.rbl.bank.in
@@ -9455,15 +9425,12 @@ securehdfcuat-acs2ui-b1-indblr-blrrel.hdfcuat.bank.in
 securehdfcuat-acs2ui-b1-indmum-mumsif.hdfcuat.bank.in
 secureicici-3dsmethod.icici.bank.in
 secureicici-cr1.icici.bank.in
-secureicici-mc-ar1.icici.bank.in
 secureicici-mpayon.icici.bank.in
 secureicici-onus-ar1.icici.bank.in
 secureicici-payon.icici.bank.in
 secureicici-paysecure.icici.bank.in
-secureicici-rc-ar1.icici.bank.in
 secureicici-sandbox-cr1.icici.bank.in
 secureicici-sandbox.icici.bank.in
-secureicici-vc-ar1.icici.bank.in
 secureinbox.gtb.deutsche.bank.in
 securemail.dhusbn.bank.in
 secureonline.idbi.bank.in
@@ -9550,6 +9517,7 @@ setuuataws.axis.bank.in
 sevalia.bank.in
 sevenhills.bank.in
 sewa.bank.in
+sf-qa.kotak811.bank.in
 sfaws.kong.kotakuat.bank.in
 sfbapplb.suryoday.bank.in
 sfccapi.au.bank.in
@@ -10184,6 +10152,7 @@ tabprouat.axis.bank.in
 tabsoraal.axis.bank.in
 tabsorauat.axis.bank.in
 tabuatnext.icici.bank.in
+tachyon.hdfc.bank.in
 tagetikwgcrs.icici.bank.in
 taicobank.bank.in
 talentconnect.punjabandsind.bank.in
@@ -11117,7 +11086,6 @@ videolc.indianbank.bank.in
 videopd.axis.bank.in
 videopduat.axis.bank.in
 vidyabank.bank.in
-vidyanand.bank.in
 vidyanidhi.punjabandsind.bank.in
 vidyasagarccb.bank.in
 view.emailer.idfcfirst.bank.in
@@ -11254,7 +11222,6 @@ vps.dccbrohika.bank.in
 vps.dccbsasaram.bank.in
 vps.dccbsiwan.bank.in
 vps.dccbsupaul.bank.in
-vps.gavisiddheshwar.bank.in
 vps.gdccbank.bank.in
 vps.hooghlydccb.bank.in
 vps.ilkal.bank.in
@@ -11392,6 +11359,7 @@ webadmin.knsbl.bank.in
 webadmin.rcc.bank.in
 webadmin.sgmcbl.bank.in
 webadmin.vikas.bank.in
+webadmin.wuc.bank.in
 webapi.canarabank.bank.in
 webapi.dcb.bank.in
 webapi.pnb.bank.in
@@ -11425,7 +11393,6 @@ webdisk.bucb.bank.in
 webdisk.burdwanccb.bank.in
 webdisk.ccbjhalawar.bank.in
 webdisk.cgapex.bank.in
-webdisk.chikmagalurupattana.bank.in
 webdisk.coastal.bank.in
 webdisk.cuddaloredccb.bank.in
 webdisk.darussalam.bank.in
@@ -12074,6 +12041,8 @@ www.apiuat.hdfcuat.bank.in
 www.apiuatgw.cboi.bank.in
 www.apiuatgwytrust.southindianbank.bank.in
 www.apiyl.sbiuat.bank.in
+www.apmtraces.centralbank.bank.in
+www.apmuattraces.centralbank.bank.in
 www.apna.bank.in
 www.app.airtelpayments.bank.in
 www.app.kotak.bank.in
@@ -12937,7 +12906,6 @@ www.devport.hdfc.bank.in
 www.devportuat.hdfcuat.bank.in
 www.devsecops.idbi.bank.in
 www.dhakuriacoop.bank.in
-www.dhan.bank.in
 www.dharati.bank.in
 www.dharmaj.bank.in
 www.dhluat.bankofbaroda.bank.in
@@ -13119,6 +13087,7 @@ www.emailserver.palusbank.bank.in
 www.emandate.akhandanand.bank.in
 www.emandate.amco.bank.in
 www.emandate.aryapuram.bank.in
+www.emandate.associate.bank.in
 www.emandate.bankofbaroda.bank.in
 www.emandate.bankofindia.bank.in
 www.emandate.bmcb.bank.in
@@ -13169,6 +13138,7 @@ www.enach.bankofmaharashtra.bank.in
 www.enach.cboi.bank.in
 www.enach.cosmos.bank.in
 www.enach.cub.bank.in
+www.enach.gscbgoa.bank.in
 www.enach.icici.bank.in
 www.enach.idbi.bank.in
 www.enach.ippbonline.bank.in
@@ -14625,8 +14595,8 @@ www.nridigital.sbi.bank.in
 www.nridigital.sbiuat.bank.in
 www.nrvideoconnect.kotak.bank.in
 www.nrvideoconnect.kotakuat.bank.in
-www.ns1.indusind.bank.in
-www.ns2.axis.bank.in
+www.ns1.axisuat.bank.in
+www.ns1.sibuat.bank.in
 www.nsbgwalior.bank.in
 www.nsbjdp.bank.in
 www.nsbl.bank.in
@@ -14789,7 +14759,6 @@ www.payments.qnb.bank.in
 www.paymentscug.icici.bank.in
 www.paymentsuat.icici.bank.in
 www.paymentxml.rbl.bank.in
-www.payout.bank.in
 www.pays.cboi.bank.in
 www.paysys.tmbdigital.bank.in
 www.paysysuat.tmbdigital.bank.in
@@ -15893,6 +15862,7 @@ www.web-uat.idfcfirst.bank.in
 www.web.onlineyono.sbi.bank.in
 www.web.partnerportal-uat.idfcfirst.bank.in
 www.web.partnerportal.idfcfirst.bank.in
+www.webadmin.wuc.bank.in
 www.webapi.wbgb.bank.in
 www.webapp.bankofbaroda.bank.in
 www.webcrm.sbi.bank.in
