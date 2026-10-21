@@ -8172,6 +8172,7 @@ nrpcb.bank.in,True,13.126.74.151,True,False,200,Welcome to NRPC Bank,https://nrp
 nrvideoconnect.kotak.bank.in,False,,False,False,,,,
 nrvideoconnect.kotakuat.bank.in,False,,False,False,,,,
 ns-1206.canarauat.bank.in,False,,False,False,,,,
+ns-279.canarauat.bank.in,False,,False,False,,,,
 ns.aucbakola.bank.in,False,,False,False,,,,
 ns1.axis.bank.in,False,,False,False,,,,
 ns1.axisuat.bank.in,False,,False,False,,,,
@@ -12509,6 +12510,7 @@ www.bankpluginuat.icici.bank.in,False,,False,False,,,,
 www.banksmart.bnpparibas.bank.in,True,23.212.249.215,False,False,0,,,URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)>
 www.banksmart.bnpparibasuat.bank.in,False,,False,False,,,,
 www.banksmart.staging.bnpparibasuat.bank.in,True,173.223.234.205,False,False,0,,,URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)>
+www.bankuat.indusind.bank.in,False,,False,False,,,,
 www.bankuradccb.bank.in,False,,False,False,,,,
 www.banl.cosmos.bank.in,False,,False,False,,,,
 www.banswaraccb.bank.in,False,,False,False,,,,
