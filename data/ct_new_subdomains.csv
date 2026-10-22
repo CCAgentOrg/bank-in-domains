@@ -1,0 +1,70 @@
+domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
+crbappsuat.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-16T00:00:00,2027-03-31T23:59:59,0e86647c690e421161fc710dea8bb513,,29906564409
+dcemi.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-16T00:00:00,2027-05-02T23:59:59,01f135b105d2cf51c683a7598b3a1a07,,29906428535
+www.dcemi.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-16T00:00:00,2027-05-02T23:59:59,01f135b105d2cf51c683a7598b3a1a07,,29906428535
+corporatebankinggiftcity.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-09T00:00:00,2027-04-25T23:59:59,02fec732aba5abb2c53321ebefefa17b,,29932134935
+www.corporatebankinggiftcity.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-09T00:00:00,2027-04-25T23:59:59,02fec732aba5abb2c53321ebefefa17b,,29932134935
+giftcitynetbanking.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-09T00:00:00,2027-04-25T23:59:59,02f2549443a3c1421bfddd605544b8e5,,29966378768
+www.giftcitynetbanking.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-09T00:00:00,2027-04-25T23:59:59,02f2549443a3c1421bfddd605544b8e5,,29966378768
+upiqr.payzapp.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-09T00:00:00,2027-04-25T23:59:59,06782c42a788c40ae06999de7c9e7ce5,,29969169209
+www.upiqr.payzapp.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-09T00:00:00,2027-04-25T23:59:59,06782c42a788c40ae06999de7c9e7ce5,,29969169209
+ifms.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-08T00:00:00,2027-04-24T23:59:59,0673f41a5381ff047e873e4c3d54781f,,29914680023
+www.ifms.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-08T00:00:00,2027-04-24T23:59:59,0673f41a5381ff047e873e4c3d54781f,,29914680023
+webcustody.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-08T00:00:00,2027-04-24T23:59:59,02ecbc5bb9fddc9c4b104f64cef0c6f6,,29914756185
+www.webcustody.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-08T00:00:00,2027-04-24T23:59:59,02ecbc5bb9fddc9c4b104f64cef0c6f6,,29914756185
+estmt.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-06T00:00:00,2027-04-22T23:59:59,0bb7bed7b61c38e2a078348c20656aa2,,29928273967
+www.estmt.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-06T00:00:00,2027-04-22T23:59:59,0bb7bed7b61c38e2a078348c20656aa2,,29928273967
+gsp.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-05T00:00:00,2027-04-05T23:59:59,0a6d89a4cbb9094b799ca741ccca86d6,,29953353369
+apidocs.hdfc.bank.in,Identity,286242,"C=US, O=Google Trust Services, CN=WR1",2026-10-04T20:00:46,2027-01-02T21:00:41,5a37d8422bd417d30e666303ca9f7feb,,29886821266
+apidocs.hdfc.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-10-04T17:26:27,2027-01-02T18:26:24,02d410c71e7180cf13508a47c01b71f6,,29867440545
+now.hdfc.bank.in,Identity,431054,"C=US, O=Let's Encrypt, CN=YE2",2026-09-21T19:20:26,2026-12-20T19:20:25,066d0f791b237981e97a528d336d78ab490f,,29914024126
+now.hdfc.bank.in,Identity,432477,"C=US, O=Let's Encrypt, CN=YR2",2026-09-21T19:20:21,2026-12-20T19:20:20,0684323087ad39fd055ea730124765e977f8,,29913845455
+api.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-04-22T00:00:00,2026-11-06T23:59:59,0d55939d522ee605b851c2bca04143e8,,29874462806
+www.api.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-04-22T00:00:00,2026-11-06T23:59:59,0d55939d522ee605b851c2bca04143e8,,29874462806
+esd.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-10-25T00:00:00,2026-10-27T23:59:59,0cedaba97302090bcbc6b6dab900c1ec,,29917918747
+www.esd.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-10-25T00:00:00,2026-10-27T23:59:59,0cedaba97302090bcbc6b6dab900c1ec,,29917918747
+dnc.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-19T00:00:00,2027-05-05T23:59:59,0e6ffda30fbe43a9047d3e78506f000c,,29986287321
+www.dnc.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-19T00:00:00,2027-05-05T23:59:59,0e6ffda30fbe43a9047d3e78506f000c,,29986287321
+dev-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00ffd82cd350e4c838c69a07ad8ac0f5a1,,29895571390
+www.dev-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00ffd82cd350e4c838c69a07ad8ac0f5a1,,29895571390
+dev-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00ffd82cd350e4c838c69a07ad8ac0f5a1,,29894101010
+www.dev-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00ffd82cd350e4c838c69a07ad8ac0f5a1,,29894101010
+host2host.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,008f8c2c0c134bd3144755f07332d8a4de,,29943803018
+igateway.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,7e7ebde896c1ba0b2209fa5472e2f54a,,29892887199
+www.igateway.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,7e7ebde896c1ba0b2209fa5472e2f54a,,29892887199
+isg-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00cf7dffc4325c76ae6de2bebd91af6cd7,,29894270976
+www.isg-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00cf7dffc4325c76ae6de2bebd91af6cd7,,29894270976
+sit-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00c4a14c11bd2937d461b724f07d4339dc,,29894221226
+www.sit-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,00c4a14c11bd2937d461b724f07d4339dc,,29894221226
+uatase17.crm365.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,008ea57fc65c931edf40dd0743ff85aa4f,,29894043068
+uat-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,6c0a016d3e993707645a711fdfff5880,,29994131594
+www.uat-imbl-dmz.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,6c0a016d3e993707645a711fdfff5880,,29994131594
+uat-onprem-dmz-hybrid.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,5c4720db82c3b659d01ef429bdc7acbb,,29936057621
+www.uat-onprem-dmz-hybrid.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-17T00:00:00,2027-05-03T23:59:59,5c4720db82c3b659d01ef429bdc7acbb,,29936057621
+ecbf.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-16T00:00:00,2027-05-02T23:59:59,0081e282b0f057cb8265f58151e0b65c00,,29913681701
+www.ecbf.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-16T00:00:00,2027-05-02T23:59:59,0081e282b0f057cb8265f58151e0b65c00,,29913681701
+ecbf.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-16T00:00:00,2027-05-02T23:59:59,0081e282b0f057cb8265f58151e0b65c00,,29924799925
+www.ecbf.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-16T00:00:00,2027-05-02T23:59:59,0081e282b0f057cb8265f58151e0b65c00,,29924799925
+money2world.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-16T00:00:00,2027-05-02T23:59:59,00cb8bed83188f22ad390cf2a3a6d7f3a4,,29911368646
+dcimjprdce.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,747928ab463180b37b5cfd2a1546290b,,29888642441
+www.dcimjprdce.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,747928ab463180b37b5cfd2a1546290b,,29888642441
+dcimjprdce.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,747928ab463180b37b5cfd2a1546290b,,29882198838
+www.dcimjprdce.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,747928ab463180b37b5cfd2a1546290b,,29882198838
+money2worlduat.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,00c99417de150df02140c84fb7ef678d13,,29854385141
+money2worlduat.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,00c99417de150df02140c84fb7ef678d13,,29855208739
+remithub.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,29d1bc7fbd75b300cda9cc08c9292e70,,29881694341
+www.remithub.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,29d1bc7fbd75b300cda9cc08c9292e70,,29881694341
+icosuatv2.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-08T00:00:00,2027-04-24T23:59:59,71d7ff5ae42c2bde70796b9a5bbdb978,,29897606163
+www.icosuatv2.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-08T00:00:00,2027-04-24T23:59:59,71d7ff5ae42c2bde70796b9a5bbdb978,,29897606163
+tradeonlinedemo.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-08T00:00:00,2027-04-24T23:59:59,00bf2ec056ee3f1eaee629d9608a4e06fd,,29862149762
+www.tradeonlinedemo.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-08T00:00:00,2027-04-24T23:59:59,00bf2ec056ee3f1eaee629d9608a4e06fd,,29862149762
+corporatenetbankingstg.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-07T00:00:00,2027-04-23T23:59:59,6c8d53e77720263862c80349b23d5b13,,29908244713
+www.corporatenetbankingstg.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-07T00:00:00,2027-04-23T23:59:59,6c8d53e77720263862c80349b23d5b13,,29908244713
+www.zwa.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-05T00:00:00,2027-04-21T23:59:59,0a968adf7ba0266ee4de546242642fd8,,29862989014
+zwa.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-05T00:00:00,2027-04-21T23:59:59,0a968adf7ba0266ee4de546242642fd8,,29862989014
+arcotw.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-30T00:00:00,2027-04-16T23:59:59,267e87463919782b0669eaf04c9d5dea,,29923675760
+secureapi.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-30T00:00:00,2027-04-16T23:59:59,2f3d62789a45d1c9706e2586b4ec9522,,29916066063
+www.secureapi.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-09-30T00:00:00,2027-04-16T23:59:59,2f3d62789a45d1c9706e2586b4ec9522,,29916066063
+uco.bank.in,Identity,432476,"C=US, O=Let's Encrypt, CN=YR1",2026-09-15T09:28:49,2026-12-14T09:28:48,069b3b32350fa45d15523897cbfacf6350bb,,29940661496
+boubbps.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,542cfc214cfc1eeab5cbeb43d2307f1b,,29858912938
+www.boubbps.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-15T00:00:00,2027-05-01T23:59:59,542cfc214cfc1eeab5cbeb43d2307f1b,,29858912938
