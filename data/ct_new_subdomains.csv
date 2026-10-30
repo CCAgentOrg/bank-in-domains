@@ -1,0 +1,18 @@
+domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
+corptag.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,0fe00973c770d81eeb9e6777243f3cd2,,30057745437
+www.corptag.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,0fe00973c770d81eeb9e6777243f3cd2,,30057745437
+applynow.hdfc.bank.in,Identity,431054,"C=US, O=Let's Encrypt, CN=YE2",2026-09-16T15:38:44,2026-12-15T15:38:43,067fe3952309112a896ec47ef5919e8a51a1,,30029310167
+upi.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-10-14T00:00:00,2026-10-13T23:59:59,0cf247f0f0fc303c103a92da783718dc,,30071240510
+www.upi.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2025-10-14T00:00:00,2026-10-13T23:59:59,0cf247f0f0fc303c103a92da783718dc,,30071240510
+ws.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-07T00:00:00,2027-04-23T23:59:59,0ef3d3d328dd805067757d01a79e8824,,30063614216
+www.ws.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-07T00:00:00,2027-04-23T23:59:59,0ef3d3d328dd805067757d01a79e8824,,30063614216
+cb.kotak.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-10-05T21:15:24,2027-01-03T22:15:22,46decd1466afefc00eef707b17b6ca10,,30058433113
+cb.kotak.bank.in,Identity,286242,"C=US, O=Google Trust Services, CN=WR1",2026-10-05T21:15:15,2027-01-03T22:14:12,00bdd0eb4c7a1ef1af0e8175294271e2b3,,30055410514
+private.kotak.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-09-22T22:21:08,2026-12-21T23:21:06,00f96435ad024629550e3dd6d766c90443,,30063360623
+content.bankcrm.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-09T00:00:00,2027-04-25T23:59:59,00fcfcad2b074686df3212ce75135f43cb,,30060033860
+www.content.bankcrm.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-09T00:00:00,2027-04-25T23:59:59,00fcfcad2b074686df3212ce75135f43cb,,30060033860
+content.bankcrm.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-09T00:00:00,2027-04-25T23:59:59,00fcfcad2b074686df3212ce75135f43cb,,30060032908
+www.content.bankcrm.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-09T00:00:00,2027-04-25T23:59:59,00fcfcad2b074686df3212ce75135f43cb,,30060032908
+content.campaignconnect.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-09T00:00:00,2027-04-25T23:59:59,45d51859c7f778ba7e3cabc51ce2cba6,,30060089301
+www.content.campaignconnect.indusind.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-09T00:00:00,2027-04-25T23:59:59,45d51859c7f778ba7e3cabc51ce2cba6,,30060089301
+hpm.alerts.federal.bank.in,Identity,432476,"C=US, O=Let's Encrypt, CN=YR1",2026-10-07T00:34:01,2027-01-05T00:34:00,06742c25e27bc9a253a245e7d70b8d0d044c,,30053342797
