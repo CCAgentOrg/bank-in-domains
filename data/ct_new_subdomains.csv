@@ -1,17 +1,14 @@
 domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
-dspreprodext.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,321c9490559292f203330de2ec064b0f,,30056404808
-www.dspreprodext.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,321c9490559292f203330de2ec064b0f,,30056404808
-fxonlineplus.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,6a91b99101592fe91fb37c9738c0fa11,,30056812472
-www.fxonlineplus.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,6a91b99101592fe91fb37c9738c0fa11,,30056812472
-npscorporateportal.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,00cd0a5ba53b9391ed57ebbf3c2b584f57,,30060651491
-www.npscorporateportal.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,00cd0a5ba53b9391ed57ebbf3c2b584f57,,30060651491
-omnidocsuat.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-23T00:00:00,2027-05-09T23:59:59,43c9c09eec5c572c1b328330106bd806,,30060045286
-secureicici-sandbox.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-22T00:00:00,2027-05-08T23:59:59,7c578d6ff1584b1b5e8b864dd1486ca5,,30037215119
-www.secureicici-sandbox.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-22T00:00:00,2027-05-08T23:59:59,7c578d6ff1584b1b5e8b864dd1486ca5,,30037215119
-secureicici-3dsmethod.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-21T00:00:00,2027-05-07T23:59:59,53b0d2a9d4b6fb87f25268ab87fd1f97,,30015503879
-www.secureicici-3dsmethod.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-21T00:00:00,2027-05-07T23:59:59,53b0d2a9d4b6fb87f25268ab87fd1f97,,30015503879
-secureicici-onus-ar1.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-21T00:00:00,2027-05-07T23:59:59,70c75474887a4dad6f41cb400c0a503b,,30050059078
-www.secureicici-onus-ar1.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-21T00:00:00,2027-05-07T23:59:59,70c75474887a4dad6f41cb400c0a503b,,30050059078
-secureicici-paysecure.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-21T00:00:00,2027-05-07T23:59:59,00d0a3c772ad0024012dff24d14e62af40,,30015463018
-ipguat.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-12T00:00:00,2027-04-28T23:59:59,00d49e23f4e7ef460dfdc6c46aa64ec9f3,,30041984014
-www.ipguat.icici.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-12T00:00:00,2027-04-28T23:59:59,00d49e23f4e7ef460dfdc6c46aa64ec9f3,,30041984014
+evotinguat.axis.bank.in,Identity,432952,"C=US, O=Let's Encrypt, CN=YE1",2026-10-10T18:45:55,2027-01-08T18:45:54,05ab32b698422489f1cd0a1b1e4e792ef62b,,30055625715
+imeeting.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-10-12T00:00:00,2027-04-28T23:59:59,064c65f9aca43a1fe657e40c84350fd1,,30051744616
+www.imeeting.sbi.bank.in,Identity,176211,"C=US, O=DigiCert Inc, CN=DigiCert EV RSA CA G2",2026-10-12T00:00:00,2027-04-28T23:59:59,064c65f9aca43a1fe657e40c84350fd1,,30051744616
+cug.smartnudges.kotak.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-10-12T22:08:54,2027-01-10T23:08:52,4d5fde6f629dba530efaff1477ccf988,,30081999601
+cug.smartnudges.kotak.bank.in,Identity,286242,"C=US, O=Google Trust Services, CN=WR1",2026-10-12T22:08:46,2027-01-10T23:08:43,6fd9e7829dce33c30ed092fe8860e7ef,,30081992827
+cug.smartnudges.kotak.bank.in,Identity,286242,"C=US, O=Google Trust Services, CN=WR1",2026-10-12T19:11:11,2027-01-10T20:10:00,55fcd0e472bd36090e77effacba29d5f,,30074897417
+cug.mb2.kotak.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-10-12T19:09:00,2027-01-10T20:08:59,379576c76927f2570e33eca6478811f0,,30074820596
+cug.mb2.kotak.bank.in,Identity,286242,"C=US, O=Google Trust Services, CN=WR1",2026-10-12T19:08:53,2027-01-10T20:08:51,00f814fee81eed595e133af8a050de78fd,,30074814951
+fyn.kotak.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-10-01T11:39:47,2026-12-30T12:39:43,25960ba9cab9f9ff0ea66b95619ecef3,,30083965298
+fyn.kotak.bank.in,Identity,286236,"C=US, O=Google Trust Services, CN=WE1",2026-10-01T07:38:05,2026-12-30T08:38:02,379c0878f04cb4181356947954ab933b,,30080567646
+fastag.pnb.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,034d2e5987159e4dea9174d2f9e9207d,,30081277956
+webapp65.federal.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-19T00:00:00,2027-05-05T23:59:59,0e81d7d81415f34872ca3983bd5e1086,,30074946251
+elink.connect.kvb.bank.in,Identity,432952,"C=US, O=Let's Encrypt, CN=YE1",2026-08-29T02:48:56,2026-11-27T02:48:55,06c5ebc7c08d4f286fe9fcdce808a36fbee5,,30080134604
