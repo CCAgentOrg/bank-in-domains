@@ -1,10 +1,8 @@
 domain,ct_search_type,ct_issuer_ca_id,ct_issuer_name,ct_not_before,ct_not_after,ct_serial_number,ct_entry_timestamp,ct_id
-videokyc.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-06T00:00:00,2027-04-22T23:59:59,490097cc7429d4dfc620d0f29f86a083,,30093644158
-www.videokyc.kotak.bank.in,Identity,204411,"C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R36",2026-10-06T00:00:00,2027-04-22T23:59:59,490097cc7429d4dfc620d0f29f86a083,,30093644158
-gemsahay.pnb.bank.in,Identity,432939,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",2026-10-06T12:21:48,2027-04-23T12:21:48,2497db3bbed3183f777f032b,,30094215786
-digihomecrg.pnb.bank.in,Identity,432939,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",2026-10-06T12:21:43,2027-04-23T12:21:43,5492d3f08fff951555253683,,30094203755
-digiagrimudra.pnb.bank.in,Identity,432939,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",2026-10-06T12:21:38,2027-04-23T12:21:38,7a11fa030b7aac0b71469390,,30094196093
-digiagriprimeplus.pnb.bank.in,Identity,432939,"C=BE, O=GlobalSign nv-sa, CN=GlobalSign GCC R46 EV TLS CA 2025",2026-10-06T12:21:34,2027-04-23T12:21:34,20018ccf53389333bb9b08ab,,30094186609
-digi2wl.pnb.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,01235dcf9559d0a9c6a06eae4a04be40,,30093537056
-rewardz.pnb.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,0b6ae81a2a342122b32855910a9db2be,,30087888668
-elink.connect.kvb.bank.in,Identity,431054,"C=US, O=Let's Encrypt, CN=YE2",2026-08-29T05:41:06,2026-11-27T05:41:05,06a78cbe9d2d2f3536867e368e93b630f056,,30091443678
+consentsettings.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-06T00:00:00,2027-04-22T23:59:59,0fd1f2bb2d61c48a521a0946d8b2db56,,30082960128
+www.consentsettings.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-06T00:00:00,2027-04-22T23:59:59,0fd1f2bb2d61c48a521a0946d8b2db56,,30082960128
+ecpv.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-06T00:00:00,2027-04-22T23:59:59,0f19c524c9dc1de41c952dc5ec3d93a6,,30094479196
+www.ecpv.hdfc.bank.in,Identity,62123,"C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",2026-10-06T00:00:00,2027-04-22T23:59:59,0f19c524c9dc1de41c952dc5ec3d93a6,,30094479196
+rasp.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,0ba28592302894aca3958edaf7cce81e,,30081365060
+www.rasp.hdfc.bank.in,Identity,176209,"C=US, O=DigiCert Inc, CN=GeoTrust EV RSA CA G2",2026-10-06T00:00:00,2027-04-22T23:59:59,0ba28592302894aca3958edaf7cce81e,,30081365060
+getprepaidcard.hdfc.bank.in,Identity,432477,"C=US, O=Let's Encrypt, CN=YR2",2026-09-09T13:55:20,2026-12-08T13:55:19,0554190353077b0d0cf170872fe2e8e4c622,,30088165153
