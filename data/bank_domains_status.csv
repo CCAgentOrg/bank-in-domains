@@ -8377,6 +8377,7 @@ ns3.hdfcuat.bank.in,False,,False,False,,,,
 ns3.meghalayaruralbank.bank.in,False,,False,False,,,,
 ns3.tjsbuat.bank.in,False,,False,False,,,,
 ns4.axis.bank.in,False,,False,False,,,,
+ns4.axisuat.bank.in,True,103.208.248.10,False,False,0,,,URLError: <urlopen error timed out>
 ns5.pnbuat.bank.in,True,111.118.178.209,False,False,0,,,URLError: <urlopen error timed out>
 ns6.pnbuat.bank.in,True,111.118.178.210,False,False,0,,,URLError: <urlopen error timed out>
 nsbankbhiwandi.bank.in,True,187.127.136.3,True,False,200,Nagarik Sahakari Bank Ltd. Bhiwandi,https://nsbankbhiwandi.bank.in/,
@@ -14859,6 +14860,7 @@ www.kokan.bank.in,True,192.227.108.55,True,False,200,:: Kokan Mercantile Co-oper
 www.kolhapurdccb.bank.in,False,,False,False,,,,
 www.kopmahila.bank.in,False,,False,False,,,,
 www.koraputccb.bank.in,True,199.79.63.133,True,False,200,"Welcome to Koraput Central Co-operative Bank Ltd.,",https://www.koraputccb.bank.in/,
+www.kores.nns.bank.in,False,,False,False,,,,
 www.kotak.bank.in,True,104.18.30.39,True,False,200,"Savings Accounts, Personal Loans and Credit Cards - Kotak Mahindra Bank",https://www.kotak.bank.in/en/home.html,
 www.kotak811.bank.in,True,104.18.0.139,True,False,200,,https://www.kotak811.bank.in/,
 www.kotakcards.kotak.bank.in,False,,False,False,,,,
@@ -15480,6 +15482,7 @@ www.ns3.hdfcuat.bank.in,False,,False,False,,,,
 www.ns3.tjsbuat.bank.in,False,,False,False,,,,
 www.ns4.axis.bank.in,False,,False,False,,,,
 www.ns4.axisuat.bank.in,False,,False,False,,,,
+www.ns4.tjsbuat.bank.in,False,,False,False,,,,
 www.ns5.pnbuat.bank.in,False,,False,False,,,,
 www.ns6.pnbuat.bank.in,False,,False,False,,,,
 www.nsbgwalior.bank.in,True,82.165.3.153,True,False,200,नागरिक सहकारी बैंक मर्यादित ग्वालियर,https://nsbgwalior.bank.in/,
