@@ -337,6 +337,7 @@ airtel.bank.in
 airtelpayments.bank.in
 airtelpaymentsuat.bank.in
 aivoice.iob.bank.in
+ajack.bank.in
 ajhc.bank.in
 ajmerccb.bank.in
 ajms.bank.in
@@ -3007,7 +3008,6 @@ cx-insights.ktkuat.bank.in
 cx-survey.ktk.bank.in
 cx-survey.ktkuat.bank.in
 cx.federal.bank.in
-cxmu.hdfcuat.bank.in
 cxuat-dashboard.rbl.bank.in
 cybercrime.darussalam.bank.in
 cybersafe.airtelpayments.bank.in
@@ -6231,8 +6231,11 @@ kottakkalcub.bank.in
 kottayamurban.bank.in
 kovvurcoopurban.bank.in
 koyana.bank.in
+kp.hdfc.bank.in
 kp.hdfcuat.bank.in
+kp1.hdfc.bank.in
 kp1.hdfcuat.bank.in
+kp2.hdfc.bank.in
 kp2.hdfcuat.bank.in
 kpapp.hdfc.bank.in
 kpappsit.hdfcuat.bank.in
@@ -6640,7 +6643,6 @@ mail.bcb.bank.in
 mail.bccb.bank.in
 mail.bccbbundi.bank.in
 mail.belagavidccb.bank.in
-mail.bengalurudcc.bank.in
 mail.berhampurccb.bank.in
 mail.berhampurucb.bank.in
 mail.bgscoop.bank.in
@@ -8185,7 +8187,6 @@ nrpcb.bank.in
 nrvideoconnect.kotak.bank.in
 nrvideoconnect.kotakuat.bank.in
 ns.aucbakola.bank.in
-ns1.axis.bank.in
 ns1.cdcc.bank.in
 ns1.ilkal.bank.in
 ns1.jivan.bank.in
@@ -8420,8 +8421,11 @@ onlineca.pnb.bank.in
 onlineca.pnbuat.bank.in
 onlinecasa.bankofbaroda.bank.in
 onlineccredemption.hdfc.bank.in
+onlinedeps.hdfc.bank.in
 onlinedeps.hdfcuat.bank.in
+onlinedeps1.hdfc.bank.in
 onlinedeps1.hdfcuat.bank.in
+onlinedeps2.hdfc.bank.in
 onlinedeps2.hdfcuat.bank.in
 onlinedisputeresolution.saraswat.bank.in
 onlineemandate.punjabandsind.bank.in
@@ -9255,6 +9259,7 @@ remitmoneyuat.canarauat.bank.in
 remittance.airtelpayments.bank.in
 remittance.clients.sc.bank.in
 remittance.federal.bank.in
+remittance.scpartners.bank.in
 remittancesolutions.hdfc.bank.in
 remittancesolutions.hdfcuat.bank.in
 remittrack.canarabank.bank.in
@@ -9609,7 +9614,6 @@ sbcub.bank.in
 sber.bank.in
 sbi.bank.in
 sbiacs.sbi.bank.in
-sbiauthenticator.sbi.bank.in
 sbiepay.sbi.bank.in
 sbiunipay.sbi.bank.in
 sbiunipay.sbiuat.bank.in
@@ -12422,6 +12426,7 @@ www.apiuat.hdfcuat.bank.in
 www.apiuatgw.cboi.bank.in
 www.apiuatgwytrust.southindianbank.bank.in
 www.apiyl.sbiuat.bank.in
+www.apmahesh.bank.in
 www.apmtraces.centralbank.bank.in
 www.apmuattraces.centralbank.bank.in
 www.apna.bank.in
@@ -12467,6 +12472,7 @@ www.appsecomni.cboi.bank.in
 www.appsecomniuat.cboi.bank.in
 www.appstackweb.bankofbaroda.bank.in
 www.aprb.bank.in
+www.aprs.bank.in
 www.aps.icici.bank.in
 www.apsuat.icici.bank.in
 www.apswebreports.icici.bank.in
@@ -12548,6 +12554,7 @@ www.bancassuranceapi.indusind.bank.in
 www.bancassuranceapiuat.indusind.bank.in
 www.bancassuranceuat.indusind.bank.in
 www.bandaurban.bank.in
+www.bank.in
 www.bankapp.airtelpayments.bank.in
 www.bankapp.airtelpaymentsuat.bank.in
 www.bankappsit.airtelpaymentsuat.bank.in
@@ -13333,6 +13340,7 @@ www.digilendinguat.idfcfirst.bank.in
 www.digilocker.jkb.bank.in
 www.digimeet.kvb.bank.in
 www.digimeet.kvbuat.bank.in
+www.digimsme.pnbuat.bank.in
 www.diginext.bankofbaroda.bank.in
 www.diginri.pnb.bank.in
 www.digiservicessit.equitasuat.bank.in
@@ -13413,6 +13421,7 @@ www.drextfw.nkgsb.bank.in
 www.drm.centralbank.bank.in
 www.drm.pnb.bank.in
 www.drmapi.hdfc.bank.in
+www.drms.pnb.bank.in
 www.drpcbl.bank.in
 www.drprimaryexpe.bankofindia.bank.in
 www.drsecondaryexpe.bankofindia.bank.in
@@ -14653,7 +14662,6 @@ www.mail.sanmati.bank.in
 www.mail.shriveershaivmail.bank.in
 www.mail.smcbl.bank.in
 www.mail.therajlaxmi.bank.in
-www.mail.tjsbuat.bank.in
 www.mail.udyam.bank.in
 www.mail.urbanbanktaliparamba.bank.in
 www.mail.yavatmaldcc.bank.in
@@ -15082,7 +15090,7 @@ www.nridigital.sbi.bank.in
 www.nridigital.sbiuat.bank.in
 www.nrvideoconnect.kotak.bank.in
 www.nrvideoconnect.kotakuat.bank.in
-www.ns2.axisuat.bank.in
+www.ns2.indusind.bank.in
 www.nsbgwalior.bank.in
 www.nsbjdp.bank.in
 www.nsbl.bank.in
@@ -15199,6 +15207,7 @@ www.ovcp.idbi.bank.in
 www.owa.hdfc.bank.in
 www.owa.icici.bank.in
 www.pa.airtelpayments.bank.in
+www.pabl.pnbuat.bank.in
 www.pac.icici.bank.in
 www.pacuat.icici.bank.in
 www.padmavathi.bank.in
@@ -16076,6 +16085,7 @@ www.turnvkyc.icici.bank.in
 www.turnvkyc.mpgb.bank.in
 www.tvcbltd.bank.in
 www.tvmalaidccb.bank.in
+www.u003epayout.bank.in
 www.uaapibkg.bankofindia.bank.in
 www.uam.hdfc.bank.in
 www.uat-api-homeloanxpress.hdfcuat.bank.in
@@ -16527,6 +16537,7 @@ yb-dashboard-internal-ppd.usli.hdfcuat.bank.in
 yb-dashboard-internal-sit.usli.hdfcuat.bank.in
 yb-dashboard-internal.sli.hdfc.bank.in
 yb-dashboard-internal.usli.hdfcuat.bank.in
+yb.sbi.bank.in
 yblauthprodwebwcs.yes.bank.in
 ybldrwebwcs.yes.bank.in
 yblnripd.yes.bank.in
@@ -16628,7 +16639,6 @@ yono2webuat1.sbiuat.bank.in
 yono2webuat3-a.sbiuat.bank.in
 yono2webuat3.sbiuat.bank.in
 yonobusiness.sbi.bank.in
-yonolite.sbi.bank.in
 yonoretail.sbi.bank.in
 youth.bank.in
 ypassist.yes.bank.in
