@@ -17,6 +17,10 @@
 1hub.kvb.bank.in
 1hub.kvbuat.bank.in
 1hubuat.karurvysya.bank.in
+252525252fwww.axis.bank.in
+2525252fwww.axis.bank.in
+25252fwww.axis.bank.in
+252fwww.axis.bank.in
 2fa.unionbankonline.bank.in
 2fauat.unionbankonline.bank.in
 3.kotak.bank.in
@@ -337,7 +341,6 @@ airtel.bank.in
 airtelpayments.bank.in
 airtelpaymentsuat.bank.in
 aivoice.iob.bank.in
-ajack.bank.in
 ajhc.bank.in
 ajmerccb.bank.in
 ajms.bank.in
@@ -3742,6 +3745,7 @@ ducobank.bank.in
 dungarpurccb.bank.in
 dvfsfb.au.bank.in
 dvmerchant.sbi.bank.in
+dwhmartg.sbiuat.bank.in
 dym.karurvysya.bank.in
 dym.kvbuat.bank.in
 dynatrace.icici.bank.in
@@ -5772,6 +5776,7 @@ interface.mahaconnect.bank.in
 intern.arunachalapexbank.bank.in
 internal-gateway.uat.axis.bank.in
 internal-lb.au.bank.in
+internal.bank.in
 internal.faida.suryoday.bank.in
 internalcustomerapi.insurance-qa.idfcfirst.bank.in
 internalmatrixapi.insurance-qa.idfcfirst.bank.in
@@ -6827,7 +6832,6 @@ mail.hucb.bank.in
 mail.huco.bank.in
 mail.i4c.hnsb.bank.in
 mail.icubr27.bank.in
-mail.ilkal.bank.in
 mail.imcb.bank.in
 mail.inb.bhavnagar.bank.in
 mail.inb.mrb.bank.in
@@ -7248,6 +7252,7 @@ mb1.kvbuat.bank.in
 mb2.kvbuat.bank.in
 mbank.scdcc.bank.in
 mbank.spcbl.bank.in
+mbank.vmc.bank.in
 mbapp.sbm.bank.in
 mbapp.suryoday.bank.in
 mbd.kvb.bank.in
@@ -8618,6 +8623,7 @@ paymentsupdate.ecomm.deutsche.bank.in
 paymentsupdate.prd.ecomm.deutsche.bank.in
 paymentsupdate.stg.ecomm.deutsche.bank.in
 paymentxml.rbl.bank.in
+payout.bank.in
 paypg.icici.bank.in
 paypro.axis.bank.in
 payprod.axis.bank.in
@@ -8639,6 +8645,7 @@ payuprodaws.axis.bank.in
 payuuataws.axis.bank.in
 payuupiuatnpci.axis.bank.in
 payyoliurbanbank.bank.in
+payzapp.hdfcuat.bank.in
 payzappbcp.hdfc.bank.in
 payzappbcp.hdfcuat.bank.in
 pbgcob.icici.bank.in
@@ -10480,7 +10487,6 @@ tabprouat.axis.bank.in
 tabsoraal.axis.bank.in
 tabsorauat.axis.bank.in
 tabuatnext.icici.bank.in
-tachyon.hdfc.bank.in
 tagetikwgcrs.icici.bank.in
 taicobank.bank.in
 talentconnect.punjabandsind.bank.in
@@ -10618,6 +10624,7 @@ tirupati.bank.in
 tirupaticoop.bank.in
 tirupatturucb.bank.in
 tirururban.bank.in
+tiruvallurcub.bank.in
 titrust-testing.ctbcbank.bank.in
 tjpay.tjsb.bank.in
 tjsb.bank.in
@@ -11070,6 +11077,7 @@ uatutkarsh.bank.in
 uatvelocity.axis.bank.in
 uatvideokyc.deutsche.bank.in
 uatvkyc.karnatakagb.bank.in
+uatweb.auuat.bank.in
 uatwhatsapp.icici.bank.in
 uauatcym.bankofindia.bank.in
 uawcmconnect.bankofindia.bank.in
@@ -11494,6 +11502,7 @@ vkyc.equitas.bank.in
 vkyc.federal.bank.in
 vkyc.fino.bank.in
 vkyc.ggb.bank.in
+vkyc.hdfcuat.bank.in
 vkyc.icici.bank.in
 vkyc.idbi.bank.in
 vkyc.idfcfirst.bank.in
@@ -13421,7 +13430,6 @@ www.drextfw.nkgsb.bank.in
 www.drm.centralbank.bank.in
 www.drm.pnb.bank.in
 www.drmapi.hdfc.bank.in
-www.drms.pnb.bank.in
 www.drpcbl.bank.in
 www.drprimaryexpe.bankofindia.bank.in
 www.drsecondaryexpe.bankofindia.bank.in
@@ -14133,6 +14141,7 @@ www.icnrm.idbi.bank.in
 www.icon.icici.bank.in
 www.iconnect.indusind.bank.in
 www.iconuat.icici.bank.in
+www.icorpplus.pnbuat.bank.in
 www.icos.icici.bank.in
 www.icosagri.icici.bank.in
 www.icosagriuat.icici.bank.in
@@ -15090,7 +15099,7 @@ www.nridigital.sbi.bank.in
 www.nridigital.sbiuat.bank.in
 www.nrvideoconnect.kotak.bank.in
 www.nrvideoconnect.kotakuat.bank.in
-www.ns2.indusind.bank.in
+www.ns3.axisuat.bank.in
 www.nsbgwalior.bank.in
 www.nsbjdp.bank.in
 www.nsbl.bank.in
@@ -15207,7 +15216,6 @@ www.ovcp.idbi.bank.in
 www.owa.hdfc.bank.in
 www.owa.icici.bank.in
 www.pa.airtelpayments.bank.in
-www.pabl.pnbuat.bank.in
 www.pac.icici.bank.in
 www.pacuat.icici.bank.in
 www.padmavathi.bank.in
@@ -16019,6 +16027,7 @@ www.tirumala.bank.in
 www.tirunelveliccb.bank.in
 www.tirupaticoop.bank.in
 www.tirupatturucb.bank.in
+www.tiruvallurcub.bank.in
 www.tjsb.bank.in
 www.tjsbuat.bank.in
 www.tkmsapi.indusind.bank.in
@@ -16085,7 +16094,6 @@ www.turnvkyc.icici.bank.in
 www.turnvkyc.mpgb.bank.in
 www.tvcbltd.bank.in
 www.tvmalaidccb.bank.in
-www.u003epayout.bank.in
 www.uaapibkg.bankofindia.bank.in
 www.uam.hdfc.bank.in
 www.uat-api-homeloanxpress.hdfcuat.bank.in
@@ -16470,7 +16478,6 @@ www.xpressforms.hdfc.bank.in
 www.xsiamprdsyslog.icici.bank.in
 www.yavatmaldcc.bank.in
 www.yavatmalurban.bank.in
-www.yeolamerchant.bank.in
 www.yes.bank.in
 www.yeshwantlatur.bank.in
 www.yono-apigw.sbi.bank.in
