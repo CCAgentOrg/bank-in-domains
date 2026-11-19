@@ -2069,6 +2069,7 @@ chatbot-admin.indusind.bank.in
 chatbot-api.indusind.bank.in
 chatbot.indianbank.bank.in
 chatbot.indusind.bank.in
+chatbot.jana.bank.in
 chatbot.rbl.bank.in
 chatbotbanking.ujjivansfb.bank.in
 chatbotcug-api.indusind.bank.in
@@ -4914,7 +4915,6 @@ gooty.bank.in
 gotrade.idbi.bank.in
 gotradeuat.idbi.bank.in
 gotrust.hdfc.bank.in
-gov.bank.in
 govconnect.iob.bank.in
 govconnectuat.iob.bank.in
 govtdashboard.sbi.bank.in
@@ -7248,7 +7248,6 @@ mb1.kvbuat.bank.in
 mb2.kvbuat.bank.in
 mbank.scdcc.bank.in
 mbank.spcbl.bank.in
-mbank.vmc.bank.in
 mbapp.sbm.bank.in
 mbapp.suryoday.bank.in
 mbd.kvb.bank.in
@@ -8188,6 +8187,7 @@ nrivideochat.canarabank.bank.in
 nrpcb.bank.in
 nrvideoconnect.kotak.bank.in
 nrvideoconnect.kotakuat.bank.in
+ns-1206.canarauat.bank.in
 ns.aucbakola.bank.in
 ns1.cdcc.bank.in
 ns1.ilkal.bank.in
@@ -8196,7 +8196,6 @@ ns1.muco.bank.in
 ns1.pioneer.bank.in
 ns1.tripuragramin.bank.in
 ns1.urbanbankshikaripur.bank.in
-ns2.axisuat.bank.in
 ns2.cdcc.bank.in
 ns2.ilkal.bank.in
 ns2.jivan.bank.in
@@ -8402,7 +8401,6 @@ online.mucb.bank.in
 online.rbl.bank.in
 online.sadalgaurban.bank.in
 online.sber.bank.in
-online.sbi.bank.in
 online.smcbl.bank.in
 online.southindianbank.bank.in
 online.sps.bank.in
@@ -9623,7 +9621,9 @@ sbcub.bank.in
 sber.bank.in
 sbi.bank.in
 sbiacs.sbi.bank.in
+sbiauthenticator.sbi.bank.in
 sbiepay.sbi.bank.in
+sbiepay.sbiuat.bank.in
 sbiunipay.sbi.bank.in
 sbiunipay.sbiuat.bank.in
 sbk.bank.in
@@ -10494,7 +10494,6 @@ tabprouat.axis.bank.in
 tabsoraal.axis.bank.in
 tabsorauat.axis.bank.in
 tabuatnext.icici.bank.in
-tachyon.hdfc.bank.in
 tagetikwgcrs.icici.bank.in
 taicobank.bank.in
 talentconnect.punjabandsind.bank.in
@@ -11035,6 +11034,7 @@ uatdigicc.yesuat.bank.in
 uatdigifms.centralbank.bank.in
 uatdigiforex.idfcfirst.bank.in
 uatdigiremit.idfcfirst.bank.in
+uatdigital.hdfcuat.bank.in
 uatdirectremit.axis.bank.in
 uatdpip.canarabank.bank.in
 uatdwaar.punjabandsind.bank.in
@@ -12975,6 +12975,7 @@ www.ckyc.kotak.bank.in
 www.ckyc.pgb.bank.in
 www.ckyc.tripuragramin.bank.in
 www.ckyc.wbgb.bank.in
+www.ckycr-admin.pnbuat.bank.in
 www.clab.coastal.bank.in
 www.cldutilityuat.hdfcuat.bank.in
 www.cleardew.s.samarthbank.bank.in
@@ -13367,6 +13368,7 @@ www.diginext.bankofbaroda.bank.in
 www.diginri.pnb.bank.in
 www.digiservicessit.equitasuat.bank.in
 www.digiservicesuat.equitasuat.bank.in
+www.digisuryaghar.pnbuat.bank.in
 www.digital.ippbonline.bank.in
 www.digital.jkb.bank.in
 www.digitalbank1.icici.bank.in
@@ -14276,7 +14278,6 @@ www.indmsmedigi.indianbank.bank.in
 www.indmsmedigi.indianbankuat.bank.in
 www.indrayani.bank.in
 www.indusboard.indusind.bank.in
-www.indusconnect.indusind.bank.in
 www.induscx.indusind.bank.in
 www.indusdirect.indusind.bank.in
 www.induseasycredit.indusind.bank.in
@@ -15118,6 +15119,9 @@ www.nridigital.sbi.bank.in
 www.nridigital.sbiuat.bank.in
 www.nrvideoconnect.kotak.bank.in
 www.nrvideoconnect.kotakuat.bank.in
+www.ns1.hdfcuat.bank.in
+www.ns3.axis.bank.in
+www.ns6.pnbuat.bank.in
 www.nsbgwalior.bank.in
 www.nsbjdp.bank.in
 www.nsbl.bank.in
