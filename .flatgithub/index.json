@@ -1,0 +1,9 @@
+{
+  "title": "Indian Bank Domain Audit (.bank.in and parallels)",
+  "description": "Daily probe of *.bank.in, *.fin.in, *.insurance.in, *.nbfc.in, *.npci.in, *.bank — DNS resolution, HTTPS, status codes.",
+  "data_dir": "data",
+  "primary_table": "data/bank_domains_status.csv",
+  "schema": ["domain","dns_resolves","ip_address","https_works","http_works","status_code","title","final_url","error"],
+  "updated_from": "https://github.com/CCAgentOrg/bank-in-domains/blob/main/data/bank_domains_status.csv",
+  "homepage": "https://zo.pub/cashlessconsumer/bank-domains-status"
+}
